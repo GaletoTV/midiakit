@@ -1,0 +1,86 @@
+{
+  "titulo": "Viralizou!",
+  "texto": "Selecionamos 10 conteúdos com mais de 1 milhão de visualizações pra apresentar variedade de formatos e territórios em que viralizamos.",
+  "virais": [
+    {
+      "titulo": "",
+      "visualizacoes": "+9.6M",
+      "alcance": "+6.1M",
+      "interacoes": "+199K",
+      "link": "https://www.instagram.com/p/DGt80IJJtpG/",
+      "capa": "midia/virais/viral01.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+6.5M",
+      "alcance": "+3.5M",
+      "interacoes": "+245K",
+      "link": "https://www.instagram.com/reel/DO6gCHNDhdq/",
+      "capa": "midia/virais/viral02.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+4.2M",
+      "alcance": "+2.2M",
+      "interacoes": "+390K",
+      "link": "https://www.instagram.com/reels/C72VWzXpVzF/",
+      "capa": "midia/virais/viral03.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+3.6M",
+      "alcance": "+1.6M",
+      "interacoes": "+300K",
+      "link": "https://www.instagram.com/p/C6yxq7eJZG4/",
+      "capa": "midia/virais/viral04.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+3.2M",
+      "alcance": "+2.1M",
+      "interacoes": "+165K",
+      "link": "https://www.instagram.com/reels/DUwFak3j6G_/",
+      "capa": "midia/virais/viral05.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+2.6M",
+      "alcance": "+1.6M",
+      "interacoes": "+280K",
+      "link": "https://www.instagram.com/reels/DbvVrcBO1yw/",
+      "capa": "midia/virais/viral06.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+2.5M",
+      "alcance": "+148k",
+      "interacoes": "+95K",
+      "link": "https://www.instagram.com/reels/DaIkEp1B4kF/",
+      "capa": "midia/virais/viral07.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+1.8M",
+      "alcance": "+892k",
+      "interacoes": "+115K",
+      "link": "https://www.instagram.com/reels/DO1As7ADZNM/",
+      "capa": "midia/virais/viral08.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+1.8M",
+      "alcance": "+1.1M",
+      "interacoes": "+203K",
+      "link": "https://www.instagram.com/reels/DZvmNugsZNk/",
+      "capa": "midia/virais/viral09.webp"
+    },
+    {
+      "titulo": "",
+      "visualizacoes": "+1.3M",
+      "alcance": "+885k",
+      "interacoes": "+45K",
+      "link": "https://www.instagram.com/reel/DZnhXCyKmAH/",
+      "capa": "midia/virais/viral10.webp"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "titulo": "Galeto.tv",
+  "fuso_horario": "America/Sao_Paulo",
+  "versao_api": "v24.0",
+  "max_posts": 150,
+  "categorias": {
+    "Esporte": ["#futebol", "#esporte", "#esportes", "futebol", "gol", "jogo", "campeonato", "brasileirão", "libertadores", "copa", "nba", "f1", "ufc", "vôlei", "seleção", "torcida", "time"],
+    "Humor": ["#humor", "#meme", "#memes", "#comedia", "meme", "kkk", "zoeira", "piada", "esquete", "parodia", "paródia", "rir"],
+    "Entretenimento": ["#entretenimento", "#bbb", "#reality", "série", "filme", "novela", "reality", "bbb", "show", "música", "famosos", "react"]
+  },
+  "categoria_padrao": "Outros"
+}

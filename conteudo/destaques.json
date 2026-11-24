@@ -1,0 +1,105 @@
+{
+  "destaques": [
+    {
+      "chapeu": "Cobertura in loco da",
+      "titulo": "Copa do Mundo",
+      "escudo": "midia/logo/escudo-copa.webp",
+      "datas": "09.JUN – 25.JUN",
+      "texto": "Acompanhando a primeira fase da Seleção Brasileira, passando por Washington, Nova York, Filadélfia e Miami. Produzimos **mais de 150 conteúdos** em formatos diversos, como vlog, entrevistas, pegadinhas e curiosidades.",
+      "numeros": [
+        {
+          "valor": "+10 milhões",
+          "rotulo": "de visualizações"
+        },
+        {
+          "valor": "+890 mil",
+          "rotulo": "de interações"
+        },
+        {
+          "valor": "+143 mil",
+          "rotulo": "compartilhamentos"
+        },
+        {
+          "valor": "+6 milhões",
+          "rotulo": "de contas alcançadas"
+        }
+      ],
+      "parceiro": "Movimento Verde Amarelo",
+      "logo_parceiro": "midia/parcerias/mva.webp",
+      "videos": [
+        {
+          "link": "https://www.instagram.com/reels/DZhnoN0BpAc/",
+          "capa": "midia/copa/thumb01.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZkfl5MOS6I/",
+          "capa": "midia/copa/thumb02.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZ5b8wrhp_T/",
+          "capa": "midia/copa/thumb03.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZxfyw3B1gq/",
+          "capa": "midia/copa/thumb04.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZdXe2pq6r5/",
+          "capa": "midia/copa/thumb05.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZ3l2jdNcmt/",
+          "capa": "midia/copa/thumb06.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DaA2-wluQPI/",
+          "capa": "midia/copa/thumb07.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZvgZ56N945/",
+          "capa": "midia/copa/thumb08.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZqJNx-Oben/",
+          "capa": "midia/copa/thumb09.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZXrFtmuwvb/",
+          "capa": "midia/copa/thumb18.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZgAoenqzVG/",
+          "capa": "midia/copa/thumb10.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZlb1MGt__w/",
+          "capa": "midia/copa/thumb11.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZdpmfqNrCS/",
+          "capa": "midia/copa/thumb12.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZgKqZKKjj1/",
+          "capa": "midia/copa/thumb13.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZ59Ak5Knxp/",
+          "capa": "midia/copa/thumb14.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZvmNugsZNk/",
+          "capa": "midia/copa/thumb15.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZd3MA1Nw4-/",
+          "capa": "midia/copa/thumb16.webp"
+        },
+        {
+          "link": "https://www.instagram.com/reels/DZ2meOFOBF_/",
+          "capa": "midia/copa/thumb17.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galeto.tv — Mídia Kit</title>
+<meta name="description" content="Galeto.tv: humor, esporte e entretenimento. Mídia kit com números, audiência, virais e parcerias.">
+<meta property="og:title" content="Galeto.tv — Mídia Kit">
+<meta property="og:description" content="Entretenimento que vira resenha. Humor • Esporte • Entretenimento.">
+<meta property="og:image" content="midia/fotos/abertura.webp">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#131313">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="midia/logo/galeto-verde.webp">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="#inicio" aria-label="Galeto.tv — início">
+      <img src="midia/logo/galeto-verde.webp" alt="Galeto.tv" width="1400" height="262">
+    </a>
+    <button class="abrir-menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="menu" id="menu" aria-label="Seções">
+      <a href="#sobre">Quem é</a>
+      <a href="#numeros">Números</a>
+      <a href="#destaque">Copa</a>
+      <a href="#virais">Virais</a>
+      <a href="#parcerias">Parcerias</a>
+      <a href="#contato">Contato</a>
+      <a class="botao" data-email href="#contato">Partiu parceria?</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ================= ABERTURA ================= -->
+  <section id="inicio" class="capitulo capitulo--abertura">
+    <div class="para-marca" id="para-marca">Mídia kit preparado para <b id="nome-marca"></b></div>
+    <div class="palco">
+      <img class="camada foto" src="midia/fotos/abertura.webp" alt="Galeto sorrindo, com a camisa do canal" width="1139" height="1101" fetchpriority="high">
+      <h1 class="camada logo-capa"><img src="midia/logo/galeto-verde.webp" alt="Galeto.tv" width="1400" height="262"></h1>
+      <p class="camada assinatura">Humor <i>•</i> Esporte <i>•</i> Entretenimento</p>
+      <ul class="camada arrobas" id="arrobas"></ul>
+    </div>
+    <div class="faixa"><div class="wrap" id="faixa-numeros"></div></div>
+  </section>
+
+  <!-- ================= QUEM É ================= -->
+  <section id="sobre" class="sobre ondas">
+    <div class="wrap">
+      <article class="painel painel-sobre">
+        <div class="painel-topo"><img class="logo-barra" src="midia/logo/galeto-preto.webp" alt="Galeto.tv" width="900" height="158"><span class="pilula-arroba" id="usuario-topo"></span></div>
+        <div class="sobre-corpo">
+          <h2 class="sobre-titulo">
+            <span class="ajustar l1" id="titulo-l1">Entretenimento</span>
+            <span class="ajustar l2" id="titulo-l2">que vira resenha</span>
+          </h2>
+          <div class="sobre-bio">
+            <p id="bio"></p>
+            <p class="frase" id="frase"></p>
+          </div>
+          <picture class="foto-sobre-wrap">
+            <source media="(max-width: 699px)" srcset="midia/fotos/sobre-celular.webp" width="551" height="779">
+            <img class="foto-sobre" src="midia/fotos/sobre.webp" alt="Galeto apontando para a câmera com o microfone do canal" width="650" height="802" loading="lazy">
+          </picture>
+          <div class="sobre-cred">
+            <ul class="credenciais" id="credenciais"></ul>
+            <p class="fechamento-bio"><mark id="fechamento"></mark></p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- credenciais em faixa (celular em pé) -->
+  <section class="faixa-cred" aria-label="Credenciais">
+    <div class="wrap">
+      <ul class="cred-botoes" id="cred-botoes"></ul>
+      <p class="cred-final" id="cred-final"></p>
+    </div>
+  </section>
+
+  <!-- ================= TERRITÓRIOS ================= -->
+  <section class="liso territorios-secao">
+    <div class="wrap grid-terr">
+      <article class="painel escuro revelar">
+        <div class="painel-topo"><span>Territórios</span><small id="territorios-linha"></small></div>
+        <div class="painel-corpo"><ul class="territorios" id="territorios"></ul></div>
+      </article>
+      <article class="painel revelar">
+        <div class="painel-corpo variedade">
+          <h3 id="variedade-titulo"></h3>
+          <p id="variedade-texto"></p>
+          <div class="formatos" id="formatos"></div>
+        </div>
+      </article>
+    </div>
+    <!-- fotos do slide 3 em faixa contínua (carrossel), fecha a seção -->
+    <div class="carrossel-variedade" role="region" aria-label="Fotos de Galeto em diferentes cenários">
+      <div class="trilho" id="fotos-variedade"></div>
+    </div>
+  </section>
+
+  <!-- ================= CAPA MÉTRICAS ================= -->
+  <section class="capitulo capitulo--metricas" aria-labelledby="t-metricas">
+    <div class="palco">
+      <img class="camada foto" src="midia/fotos/metricas.webp" alt="" width="973" height="1064" loading="lazy">
+      <h2 class="camada titulo" id="t-metricas"><img src="midia/titulos/metricas.webp" alt="Quer ver métricas de destaque, né?" width="843" height="807" loading="lazy"></h2>
+    </div>
+  </section>
+
+  <!-- ================= NÚMEROS ================= -->
+  <section id="numeros" class="liso">
+    <div class="wrap">
+      <div class="topo-numeros revelar">
+        <p class="chapeu">Números que falam por si</p>
+        <div class="total" id="total"></div>
+        <p id="total-texto"></p>
+      </div>
+      <div id="redes"></div>
+      <!-- demais redes: quadros menores, em segundo plano -->
+      <div class="outras-redes revelar" id="outras-redes"></div>
+    </div>
+  </section>
+
+  <!-- ================= DESTAQUE ================= -->
+  <section id="destaque" class="ondas">
+    <div class="wrap" id="destaques"></div>
+  </section>
+  <!-- capas dos conteúdos da Copa em 2 faixas (slide 8), em fundo liso para separar da próxima seção -->
+  <section class="liso copa-carrossel-secao" aria-label="Conteúdos da cobertura da Copa">
+    <div id="destaques-carrossel"></div>
+  </section>
+
+  <!-- ================= CAPA VIRAIS ================= -->
+  <section class="capitulo capitulo--virais" aria-labelledby="t-virais">
+    <div class="palco">
+      <img class="camada foto" src="midia/fotos/virais.webp" alt="" width="1937" height="1257" loading="lazy">
+      <div class="camada sombra" aria-hidden="true"></div>
+      <h2 class="camada titulo" id="t-virais"><img src="midia/titulos/virais.webp" alt="Aqui tem viral de milhões" width="1243" height="293" loading="lazy"></h2>
+    </div>
+  </section>
+
+  <!-- ================= VIRAIS ================= -->
+  <section id="virais" class="liso">
+    <div class="wrap">
+      <div class="cabecalho revelar">
+        <h2 class="titulo-secao" id="virais-titulo"></h2>
+        <p class="lead" id="virais-texto"></p>
+      </div>
+      <div class="grid-virais" id="grid-virais"></div>
+    </div>
+  </section>
+
+  <!-- ================= CAPA PARCERIAS ================= -->
+  <section class="capitulo capitulo--parcerias" aria-labelledby="t-parcerias">
+    <div class="palco">
+      <img class="camada foto" src="midia/fotos/parcerias.webp" alt="Galeto apertando a mão de um homem com uma TV no lugar da cabeça escrito: insira sua marca aqui" width="1335" height="1168" loading="lazy">
+      <h2 class="camada titulo" id="t-parcerias"><img src="midia/titulos/parcerias.webp" alt="Parcerias" width="858" height="576" loading="lazy"></h2>
+    </div>
+  </section>
+
+  <!-- ================= PARCERIAS ================= -->
+  <section id="parcerias" class="liso">
+    <div class="wrap">
+      <div class="cabecalho revelar">
+        <h2 class="titulo-secao titulo-parcerias">Publicidades, Parcerias, Collabs e Participações</h2>
+        <p class="lead">Clique nos quadros para assistir um exemplo de conteúdo de cada parceria.</p>
+      </div>
+      <div class="mural revelar" id="mural"></div>
+      <h3 class="subtitulo-cases">Cases por parceria</h3>
+      <div class="filtros" id="filtros" role="group" aria-label="Filtrar parcerias"></div>
+      <div class="grid-parcerias" id="grid-parcerias"></div>
+    </div>
+  </section>
+
+  <!-- ================= FECHAMENTO / CONTATO ================= -->
+  <section id="contato" class="capitulo capitulo--fechamento" aria-labelledby="t-fechamento">
+    <div class="palco">
+      <img class="camada foto" src="midia/fotos/fechamento.webp" alt="Galeto apontando para o convite de parceria" width="780" height="1411" loading="lazy">
+      <h2 class="camada titulo" id="t-fechamento"><img src="midia/titulos/fechamento.webp" alt="Partiu parceria?" width="1146" height="244" loading="lazy"></h2>
+    </div>
+  </section>
+  <section class="contato-faixa">
+    <div class="wrap">
+      <p class="chapeu">Bora fazer barulho juntos</p>
+      <div class="acoes" id="acoes-contato"></div>
+      <p class="dados" id="dados-contato"></p>
+      <p class="so-tela"><button class="botao contorno" type="button" id="salvar-pdf">Salvar este mídia kit em PDF</button></p>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <img src="midia/logo/galeto-branco.webp" alt="Galeto.tv" width="900" height="158" loading="lazy">
+  <p id="rodape-texto"></p>
+</footer>
+
+<dialog class="case" id="case" aria-labelledby="case-titulo">
+  <div class="painel-topo">
+    <span class="topo-marca"><img class="logo-barra" src="midia/logo/galeto-preto.webp" alt="Galeto.tv" width="900" height="158"><b>&amp;</b> <span id="case-cat"></span></span>
+    <button class="fechar" type="button" id="fechar-case">Fechar ✕</button>
+  </div>
+  <div class="painel-corpo" id="case-corpo"></div>
+</dialog>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

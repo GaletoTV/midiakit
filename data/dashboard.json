@@ -1,0 +1,2667 @@
+{
+ "titulo": "Galeto.tv",
+ "fuso_horario": "America/Sao_Paulo",
+ "atualizado_em": "2026-11-18T22:17:32+00:00",
+ "demo": true,
+ "perfil": {
+  "usuario": "galeto.tv",
+  "nome": "Perfil Demonstração",
+  "seguidores": 155400,
+  "seguindo": 610,
+  "total_posts": 412
+ },
+ "temas": [
+  "Esporte",
+  "Humor",
+  "Entretenimento",
+  "Outros"
+ ],
+ "seguidores_historico": [
+  {
+   "data": "2026-05-22",
+   "seguidores": 115083
+  },
+  {
+   "data": "2026-05-23",
+   "seguidores": 115259
+  },
+  {
+   "data": "2026-05-24",
+   "seguidores": 115496
+  },
+  {
+   "data": "2026-05-25",
+   "seguidores": 115576
+  },
+  {
+   "data": "2026-05-26",
+   "seguidores": 115751
+  },
+  {
+   "data": "2026-05-27",
+   "seguidores": 115991
+  },
+  {
+   "data": "2026-05-28",
+   "seguidores": 116114
+  },
+  {
+   "data": "2026-05-29",
+   "seguidores": 116310
+  },
+  {
+   "data": "2026-05-30",
+   "seguidores": 116648
+  },
+  {
+   "data": "2026-05-31",
+   "seguidores": 116926
+  },
+  {
+   "data": "2026-06-01",
+   "seguidores": 117134
+  },
+  {
+   "data": "2026-06-02",
+   "seguidores": 117232
+  },
+  {
+   "data": "2026-06-03",
+   "seguidores": 117468
+  },
+  {
+   "data": "2026-06-04",
+   "seguidores": 117727
+  },
+  {
+   "data": "2026-06-05",
+   "seguidores": 117932
+  },
+  {
+   "data": "2026-06-06",
+   "seguidores": 117932
+  },
+  {
+   "data": "2026-06-07",
+   "seguidores": 118065
+  },
+  {
+   "data": "2026-06-08",
+   "seguidores": 118308
+  },
+  {
+   "data": "2026-06-09",
+   "seguidores": 118487
+  },
+  {
+   "data": "2026-06-10",
+   "seguidores": 118643
+  },
+  {
+   "data": "2026-06-11",
+   "seguidores": 118858
+  },
+  {
+   "data": "2026-06-12",
+   "seguidores": 119049
+  },
+  {
+   "data": "2026-06-13",
+   "seguidores": 119398
+  },
+  {
+   "data": "2026-06-14",
+   "seguidores": 119528
+  },
+  {
+   "data": "2026-06-15",
+   "seguidores": 119771
+  },
+  {
+   "data": "2026-06-16",
+   "seguidores": 119795
+  },
+  {
+   "data": "2026-06-17",
+   "seguidores": 119878
+  },
+  {
+   "data": "2026-06-18",
+   "seguidores": 119973
+  },
+  {
+   "data": "2026-06-19",
+   "seguidores": 120221
+  },
+  {
+   "data": "2026-06-20",
+   "seguidores": 120402
+  },
+  {
+   "data": "2026-06-21",
+   "seguidores": 120564
+  },
+  {
+   "data": "2026-06-22",
+   "seguidores": 120889
+  },
+  {
+   "data": "2026-06-23",
+   "seguidores": 121166
+  },
+  {
+   "data": "2026-06-24",
+   "seguidores": 121429
+  },
+  {
+   "data": "2026-06-25",
+   "seguidores": 121493
+  },
+  {
+   "data": "2026-06-26",
+   "seguidores": 121631
+  },
+  {
+   "data": "2026-06-27",
+   "seguidores": 121863
+  },
+  {
+   "data": "2026-06-28",
+   "seguidores": 122182
+  },
+  {
+   "data": "2026-06-29",
+   "seguidores": 122353
+  },
+  {
+   "data": "2026-06-30",
+   "seguidores": 122600
+  },
+  {
+   "data": "2026-07-01",
+   "seguidores": 122848
+  },
+  {
+   "data": "2026-07-02",
+   "seguidores": 123084
+  },
+  {
+   "data": "2026-07-03",
+   "seguidores": 123271
+  },
+  {
+   "data": "2026-07-04",
+   "seguidores": 123358
+  },
+  {
+   "data": "2026-07-05",
+   "seguidores": 123463
+  },
+  {
+   "data": "2026-07-06",
+   "seguidores": 123492
+  },
+  {
+   "data": "2026-07-07",
+   "seguidores": 123565
+  },
+  {
+   "data": "2026-07-08",
+   "seguidores": 123634
+  },
+  {
+   "data": "2026-07-09",
+   "seguidores": 123889
+  },
+  {
+   "data": "2026-07-10",
+   "seguidores": 124001
+  },
+  {
+   "data": "2026-07-11",
+   "seguidores": 124070
+  },
+  {
+   "data": "2026-07-12",
+   "seguidores": 124138
+  },
+  {
+   "data": "2026-07-13",
+   "seguidores": 124402
+  },
+  {
+   "data": "2026-07-14",
+   "seguidores": 124584
+  },
+  {
+   "data": "2026-07-15",
+   "seguidores": 124831
+  },
+  {
+   "data": "2026-07-16",
+   "seguidores": 125158
+  },
+  {
+   "data": "2026-07-17",
+   "seguidores": 125331
+  },
+  {
+   "data": "2026-07-18",
+   "seguidores": 125529
+  },
+  {
+   "data": "2026-07-19",
+   "seguidores": 125703
+  },
+  {
+   "data": "2026-07-20",
+   "seguidores": 126132
+  },
+  {
+   "data": "2026-07-21",
+   "seguidores": 126355
+  },
+  {
+   "data": "2026-07-22",
+   "seguidores": 126458
+  },
+  {
+   "data": "2026-07-23",
+   "seguidores": 126696
+  },
+  {
+   "data": "2026-07-24",
+   "seguidores": 126879
+  },
+  {
+   "data": "2026-07-25",
+   "seguidores": 127045
+  },
+  {
+   "data": "2026-07-26",
+   "seguidores": 127408
+  },
+  {
+   "data": "2026-07-27",
+   "seguidores": 127551
+  },
+  {
+   "data": "2026-07-28",
+   "seguidores": 127856
+  },
+  {
+   "data": "2026-07-29",
+   "seguidores": 128189
+  },
+  {
+   "data": "2026-07-30",
+   "seguidores": 128437
+  },
+  {
+   "data": "2026-07-31",
+   "seguidores": 128595
+  },
+  {
+   "data": "2026-08-01",
+   "seguidores": 128836
+  },
+  {
+   "data": "2026-08-02",
+   "seguidores": 129061
+  },
+  {
+   "data": "2026-08-03",
+   "seguidores": 129289
+  },
+  {
+   "data": "2026-08-04",
+   "seguidores": 129486
+  },
+  {
+   "data": "2026-08-05",
+   "seguidores": 129779
+  },
+  {
+   "data": "2026-08-06",
+   "seguidores": 130026
+  },
+  {
+   "data": "2026-08-07",
+   "seguidores": 130124
+  },
+  {
+   "data": "2026-08-08",
+   "seguidores": 130584
+  },
+  {
+   "data": "2026-08-09",
+   "seguidores": 130744
+  },
+  {
+   "data": "2026-08-10",
+   "seguidores": 130990
+  },
+  {
+   "data": "2026-08-11",
+   "seguidores": 131223
+  },
+  {
+   "data": "2026-08-12",
+   "seguidores": 131364
+  },
+  {
+   "data": "2026-08-13",
+   "seguidores": 133923
+  },
+  {
+   "data": "2026-08-14",
+   "seguidores": 134082
+  },
+  {
+   "data": "2026-08-15",
+   "seguidores": 134082
+  },
+  {
+   "data": "2026-08-16",
+   "seguidores": 134221
+  },
+  {
+   "data": "2026-08-17",
+   "seguidores": 134290
+  },
+  {
+   "data": "2026-08-18",
+   "seguidores": 134527
+  },
+  {
+   "data": "2026-08-19",
+   "seguidores": 134856
+  },
+  {
+   "data": "2026-08-20",
+   "seguidores": 135019
+  },
+  {
+   "data": "2026-08-21",
+   "seguidores": 135097
+  },
+  {
+   "data": "2026-08-22",
+   "seguidores": 135241
+  },
+  {
+   "data": "2026-08-23",
+   "seguidores": 135532
+  },
+  {
+   "data": "2026-08-24",
+   "seguidores": 135646
+  },
+  {
+   "data": "2026-08-25",
+   "seguidores": 135891
+  },
+  {
+   "data": "2026-08-26",
+   "seguidores": 136068
+  },
+  {
+   "data": "2026-08-27",
+   "seguidores": 136279
+  },
+  {
+   "data": "2026-08-28",
+   "seguidores": 136325
+  },
+  {
+   "data": "2026-08-29",
+   "seguidores": 136478
+  },
+  {
+   "data": "2026-08-30",
+   "seguidores": 136582
+  },
+  {
+   "data": "2026-08-31",
+   "seguidores": 136689
+  },
+  {
+   "data": "2026-09-01",
+   "seguidores": 136935
+  },
+  {
+   "data": "2026-09-02",
+   "seguidores": 137061
+  },
+  {
+   "data": "2026-09-03",
+   "seguidores": 137145
+  },
+  {
+   "data": "2026-09-04",
+   "seguidores": 137310
+  },
+  {
+   "data": "2026-09-05",
+   "seguidores": 137471
+  },
+  {
+   "data": "2026-09-06",
+   "seguidores": 137574
+  },
+  {
+   "data": "2026-09-07",
+   "seguidores": 137639
+  },
+  {
+   "data": "2026-09-08",
+   "seguidores": 137802
+  },
+  {
+   "data": "2026-09-09",
+   "seguidores": 138026
+  },
+  {
+   "data": "2026-09-10",
+   "seguidores": 138191
+  },
+  {
+   "data": "2026-09-11",
+   "seguidores": 138497
+  },
+  {
+   "data": "2026-09-12",
+   "seguidores": 138661
+  },
+  {
+   "data": "2026-09-13",
+   "seguidores": 138788
+  },
+  {
+   "data": "2026-09-14",
+   "seguidores": 139057
+  },
+  {
+   "data": "2026-09-15",
+   "seguidores": 139205
+  },
+  {
+   "data": "2026-09-16",
+   "seguidores": 139316
+  },
+  {
+   "data": "2026-09-17",
+   "seguidores": 139443
+  },
+  {
+   "data": "2026-09-18",
+   "seguidores": 142028
+  },
+  {
+   "data": "2026-09-19",
+   "seguidores": 142205
+  },
+  {
+   "data": "2026-09-20",
+   "seguidores": 142302
+  },
+  {
+   "data": "2026-09-21",
+   "seguidores": 142652
+  },
+  {
+   "data": "2026-09-22",
+   "seguidores": 142867
+  },
+  {
+   "data": "2026-09-23",
+   "seguidores": 143028
+  },
+  {
+   "data": "2026-09-24",
+   "seguidores": 143192
+  },
+  {
+   "data": "2026-09-25",
+   "seguidores": 143332
+  },
+  {
+   "data": "2026-09-26",
+   "seguidores": 143528
+  },
+  {
+   "data": "2026-09-27",
+   "seguidores": 143528
+  },
+  {
+   "data": "2026-09-28",
+   "seguidores": 143650
+  },
+  {
+   "data": "2026-09-29",
+   "seguidores": 143972
+  },
+  {
+   "data": "2026-09-30",
+   "seguidores": 144205
+  },
+  {
+   "data": "2026-10-01",
+   "seguidores": 144391
+  },
+  {
+   "data": "2026-10-02",
+   "seguidores": 144391
+  },
+  {
+   "data": "2026-10-03",
+   "seguidores": 144655
+  },
+  {
+   "data": "2026-10-04",
+   "seguidores": 144810
+  },
+  {
+   "data": "2026-10-05",
+   "seguidores": 144943
+  },
+  {
+   "data": "2026-10-06",
+   "seguidores": 145094
+  },
+  {
+   "data": "2026-10-07",
+   "seguidores": 145378
+  },
+  {
+   "data": "2026-10-08",
+   "seguidores": 145533
+  },
+  {
+   "data": "2026-10-09",
+   "seguidores": 145831
+  },
+  {
+   "data": "2026-10-10",
+   "seguidores": 145852
+  },
+  {
+   "data": "2026-10-11",
+   "seguidores": 145975
+  },
+  {
+   "data": "2026-10-12",
+   "seguidores": 146187
+  },
+  {
+   "data": "2026-10-13",
+   "seguidores": 146343
+  },
+  {
+   "data": "2026-10-14",
+   "seguidores": 146493
+  },
+  {
+   "data": "2026-10-15",
+   "seguidores": 146673
+  },
+  {
+   "data": "2026-10-16",
+   "seguidores": 146842
+  },
+  {
+   "data": "2026-10-17",
+   "seguidores": 146948
+  },
+  {
+   "data": "2026-10-18",
+   "seguidores": 147221
+  },
+  {
+   "data": "2026-10-19",
+   "seguidores": 147378
+  },
+  {
+   "data": "2026-10-20",
+   "seguidores": 147454
+  },
+  {
+   "data": "2026-10-21",
+   "seguidores": 147689
+  },
+  {
+   "data": "2026-10-22",
+   "seguidores": 147811
+  },
+  {
+   "data": "2026-10-23",
+   "seguidores": 147860
+  },
+  {
+   "data": "2026-10-24",
+   "seguidores": 148045
+  },
+  {
+   "data": "2026-10-25",
+   "seguidores": 148197
+  },
+  {
+   "data": "2026-10-26",
+   "seguidores": 150872
+  },
+  {
+   "data": "2026-10-27",
+   "seguidores": 151011
+  },
+  {
+   "data": "2026-10-28",
+   "seguidores": 151169
+  },
+  {
+   "data": "2026-10-29",
+   "seguidores": 151354
+  },
+  {
+   "data": "2026-10-30",
+   "seguidores": 151678
+  },
+  {
+   "data": "2026-10-31",
+   "seguidores": 151823
+  },
+  {
+   "data": "2026-11-01",
+   "seguidores": 151941
+  },
+  {
+   "data": "2026-11-02",
+   "seguidores": 152038
+  },
+  {
+   "data": "2026-11-03",
+   "seguidores": 152135
+  },
+  {
+   "data": "2026-11-04",
+   "seguidores": 152445
+  },
+  {
+   "data": "2026-11-05",
+   "seguidores": 152670
+  },
+  {
+   "data": "2026-11-06",
+   "seguidores": 152995
+  },
+  {
+   "data": "2026-11-07",
+   "seguidores": 153342
+  },
+  {
+   "data": "2026-11-08",
+   "seguidores": 153399
+  },
+  {
+   "data": "2026-11-09",
+   "seguidores": 153638
+  },
+  {
+   "data": "2026-11-10",
+   "seguidores": 153781
+  },
+  {
+   "data": "2026-11-11",
+   "seguidores": 153901
+  },
+  {
+   "data": "2026-11-12",
+   "seguidores": 154035
+  },
+  {
+   "data": "2026-11-13",
+   "seguidores": 154333
+  },
+  {
+   "data": "2026-11-14",
+   "seguidores": 154620
+  },
+  {
+   "data": "2026-11-15",
+   "seguidores": 154724
+  },
+  {
+   "data": "2026-11-16",
+   "seguidores": 154834
+  },
+  {
+   "data": "2026-11-17",
+   "seguidores": 155092
+  },
+  {
+   "data": "2026-11-18",
+   "seguidores": 155400
+  }
+ ],
+ "posts": [
+  {
+   "id": "demo0",
+   "data": "2026-11-18T10:04:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bom dia, galera! ☀️",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 84650,
+   "views": 184773,
+   "curtidas": 5395,
+   "comentarios": 365,
+   "compartilhamentos": 1007,
+   "salvamentos": 431,
+   "tempo_medio_reels_ms": 11104
+  },
+  {
+   "id": "demo1",
+   "data": "2026-11-16T23:27:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Todo torcedor depois da derrota kkkk #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 51715,
+   "views": 131741,
+   "curtidas": 2675,
+   "comentarios": 323,
+   "compartilhamentos": 1405,
+   "salvamentos": 281,
+   "tempo_medio_reels_ms": 13455
+  },
+  {
+   "id": "demo2",
+   "data": "2026-11-15T15:02:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 137947,
+   "views": 278534,
+   "curtidas": 6636,
+   "comentarios": 795,
+   "compartilhamentos": 3482,
+   "salvamentos": 696,
+   "tempo_medio_reels_ms": 5688
+  },
+  {
+   "id": "demo3",
+   "data": "2026-11-13T21:06:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 42867,
+   "views": 50446,
+   "curtidas": 1307,
+   "comentarios": 191,
+   "compartilhamentos": 774,
+   "salvamentos": 309,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo4",
+   "data": "2026-11-12T22:23:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 34077,
+   "views": 78342,
+   "curtidas": 1207,
+   "comentarios": 113,
+   "compartilhamentos": 231,
+   "salvamentos": 99,
+   "tempo_medio_reels_ms": 12111
+  },
+  {
+   "id": "demo5",
+   "data": "2026-11-10T16:38:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 17509,
+   "views": 21332,
+   "curtidas": 757,
+   "comentarios": 45,
+   "compartilhamentos": 151,
+   "salvamentos": 130,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo6",
+   "data": "2026-11-09T01:56:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 203362,
+   "views": 396592,
+   "curtidas": 9127,
+   "comentarios": 1011,
+   "compartilhamentos": 1774,
+   "salvamentos": 760,
+   "tempo_medio_reels_ms": 5533
+  },
+  {
+   "id": "demo7",
+   "data": "2026-11-07T00:04:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Novidade chegando…",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 117680,
+   "views": 233687,
+   "curtidas": 6411,
+   "comentarios": 347,
+   "compartilhamentos": 1182,
+   "salvamentos": 506,
+   "tempo_medio_reels_ms": 9823
+  },
+  {
+   "id": "demo8",
+   "data": "2026-11-06T10:13:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 133943,
+   "views": 247475,
+   "curtidas": 5423,
+   "comentarios": 632,
+   "compartilhamentos": 1059,
+   "salvamentos": 454,
+   "tempo_medio_reels_ms": 6725
+  },
+  {
+   "id": "demo9",
+   "data": "2026-11-04T15:52:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 107956,
+   "views": 248989,
+   "curtidas": 7090,
+   "comentarios": 928,
+   "compartilhamentos": 3757,
+   "salvamentos": 751,
+   "tempo_medio_reels_ms": 7780
+  },
+  {
+   "id": "demo10",
+   "data": "2026-11-03T15:42:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 53331,
+   "views": 116748,
+   "curtidas": 2004,
+   "comentarios": 106,
+   "compartilhamentos": 369,
+   "salvamentos": 158,
+   "tempo_medio_reels_ms": 12758
+  },
+  {
+   "id": "demo11",
+   "data": "2026-11-01T15:44:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 184555,
+   "views": 379563,
+   "curtidas": 10900,
+   "comentarios": 1340,
+   "compartilhamentos": 2142,
+   "salvamentos": 918,
+   "tempo_medio_reels_ms": 10428
+  },
+  {
+   "id": "demo12",
+   "data": "2026-10-31T22:40:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Todo torcedor depois da derrota kkkk #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 139765,
+   "views": 361246,
+   "curtidas": 6400,
+   "comentarios": 489,
+   "compartilhamentos": 3228,
+   "salvamentos": 645,
+   "tempo_medio_reels_ms": 5677
+  },
+  {
+   "id": "demo13",
+   "data": "2026-10-29T11:23:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "O juiz viu outro jogo 😂 #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 108885,
+   "views": 196858,
+   "curtidas": 4419,
+   "comentarios": 434,
+   "compartilhamentos": 848,
+   "salvamentos": 363,
+   "tempo_medio_reels_ms": 13867
+  },
+  {
+   "id": "demo14",
+   "data": "2026-10-28T02:31:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 93145,
+   "views": 158550,
+   "curtidas": 3746,
+   "comentarios": 267,
+   "compartilhamentos": 702,
+   "salvamentos": 300,
+   "tempo_medio_reels_ms": 12459
+  },
+  {
+   "id": "demo15",
+   "data": "2026-10-26T23:23:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Foto",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 10551,
+   "views": 12262,
+   "curtidas": 481,
+   "comentarios": 60,
+   "compartilhamentos": 94,
+   "salvamentos": 40,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo16",
+   "data": "2026-10-25T21:58:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 151180,
+   "views": 291726,
+   "curtidas": 5198,
+   "comentarios": 748,
+   "compartilhamentos": 2786,
+   "salvamentos": 557,
+   "tempo_medio_reels_ms": 7922
+  },
+  {
+   "id": "demo17",
+   "data": "2026-10-23T15:12:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Reality: minha opinião sincera #bbb",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 26290,
+   "views": 30576,
+   "curtidas": 660,
+   "comentarios": 51,
+   "compartilhamentos": 134,
+   "salvamentos": 115,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo18",
+   "data": "2026-10-22T21:28:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 103952,
+   "views": 135894,
+   "curtidas": 6410,
+   "comentarios": 405,
+   "compartilhamentos": 1289,
+   "salvamentos": 1105,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo19",
+   "data": "2026-10-20T15:30:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 380547,
+   "views": 928700,
+   "curtidas": 16988,
+   "comentarios": 1696,
+   "compartilhamentos": 3269,
+   "salvamentos": 1401,
+   "tempo_medio_reels_ms": 5964
+  },
+  {
+   "id": "demo20",
+   "data": "2026-10-19T01:12:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Obrigado pelos 48 mil! 🙏",
+   "formato": "Carrossel",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 21838,
+   "views": 32868,
+   "curtidas": 769,
+   "comentarios": 93,
+   "compartilhamentos": 162,
+   "salvamentos": 139,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo21",
+   "data": "2026-10-17T11:46:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 114631,
+   "views": 253514,
+   "curtidas": 5822,
+   "comentarios": 643,
+   "compartilhamentos": 3029,
+   "salvamentos": 605,
+   "tempo_medio_reels_ms": 6554
+  },
+  {
+   "id": "demo22",
+   "data": "2026-10-16T10:51:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 200444,
+   "views": 407664,
+   "curtidas": 12076,
+   "comentarios": 1757,
+   "compartilhamentos": 6484,
+   "salvamentos": 1296,
+   "tempo_medio_reels_ms": 4458
+  },
+  {
+   "id": "demo23",
+   "data": "2026-10-14T15:48:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "O juiz viu outro jogo 😂 #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 108203,
+   "views": 218463,
+   "curtidas": 3264,
+   "comentarios": 390,
+   "compartilhamentos": 639,
+   "salvamentos": 274,
+   "tempo_medio_reels_ms": 11506
+  },
+  {
+   "id": "demo24",
+   "data": "2026-10-13T23:26:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Todo torcedor depois da derrota kkkk #humor",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 31155,
+   "views": 42985,
+   "curtidas": 1686,
+   "comentarios": 264,
+   "compartilhamentos": 1008,
+   "salvamentos": 403,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo25",
+   "data": "2026-10-11T15:30:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Reality: minha opinião sincera #bbb",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 93909,
+   "views": 156053,
+   "curtidas": 4997,
+   "comentarios": 453,
+   "compartilhamentos": 953,
+   "salvamentos": 408,
+   "tempo_medio_reels_ms": 5738
+  },
+  {
+   "id": "demo26",
+   "data": "2026-10-10T15:17:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 76439,
+   "views": 190639,
+   "curtidas": 2189,
+   "comentarios": 165,
+   "compartilhamentos": 411,
+   "salvamentos": 176,
+   "tempo_medio_reels_ms": 13930
+  },
+  {
+   "id": "demo27",
+   "data": "2026-10-08T22:32:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 54355,
+   "views": 85537,
+   "curtidas": 2576,
+   "comentarios": 435,
+   "compartilhamentos": 1557,
+   "salvamentos": 622,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo28",
+   "data": "2026-10-07T15:53:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Novidade chegando…",
+   "formato": "Foto",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 10854,
+   "views": 14398,
+   "curtidas": 414,
+   "comentarios": 41,
+   "compartilhamentos": 79,
+   "salvamentos": 34,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo29",
+   "data": "2026-10-05T01:07:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 63302,
+   "views": 93196,
+   "curtidas": 3129,
+   "comentarios": 212,
+   "compartilhamentos": 632,
+   "salvamentos": 541,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo30",
+   "data": "2026-10-04T11:25:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Obrigado pelos 48 mil! 🙏",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 95178,
+   "views": 215847,
+   "curtidas": 3263,
+   "comentarios": 339,
+   "compartilhamentos": 630,
+   "salvamentos": 270,
+   "tempo_medio_reels_ms": 10616
+  },
+  {
+   "id": "demo31",
+   "data": "2026-10-02T21:05:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 105804,
+   "views": 171199,
+   "curtidas": 4107,
+   "comentarios": 400,
+   "compartilhamentos": 788,
+   "salvamentos": 337,
+   "tempo_medio_reels_ms": 5053
+  },
+  {
+   "id": "demo32",
+   "data": "2026-10-01T15:56:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Foto",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 10975,
+   "views": 12816,
+   "curtidas": 639,
+   "comentarios": 45,
+   "compartilhamentos": 119,
+   "salvamentos": 51,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo33",
+   "data": "2026-09-29T00:52:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Reality: minha opinião sincera #bbb",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 73626,
+   "views": 102448,
+   "curtidas": 3149,
+   "comentarios": 301,
+   "compartilhamentos": 652,
+   "salvamentos": 559,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo34",
+   "data": "2026-09-28T00:11:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 108553,
+   "views": 275545,
+   "curtidas": 5463,
+   "comentarios": 607,
+   "compartilhamentos": 1062,
+   "salvamentos": 455,
+   "tempo_medio_reels_ms": 13964
+  },
+  {
+   "id": "demo35",
+   "data": "2026-09-26T02:07:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "React do episódio de ontem #entretenimento",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 74690,
+   "views": 160812,
+   "curtidas": 4795,
+   "comentarios": 342,
+   "compartilhamentos": 898,
+   "salvamentos": 385,
+   "tempo_medio_reels_ms": 4707
+  },
+  {
+   "id": "demo36",
+   "data": "2026-09-25T11:10:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 92734,
+   "views": 234825,
+   "curtidas": 4810,
+   "comentarios": 558,
+   "compartilhamentos": 2516,
+   "salvamentos": 503,
+   "tempo_medio_reels_ms": 8750
+  },
+  {
+   "id": "demo37",
+   "data": "2026-09-23T16:22:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 53976,
+   "views": 74562,
+   "curtidas": 1763,
+   "comentarios": 212,
+   "compartilhamentos": 1021,
+   "salvamentos": 408,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo38",
+   "data": "2026-09-22T22:32:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 121999,
+   "views": 223205,
+   "curtidas": 4049,
+   "comentarios": 612,
+   "compartilhamentos": 2185,
+   "salvamentos": 437,
+   "tempo_medio_reels_ms": 10630
+  },
+  {
+   "id": "demo39",
+   "data": "2026-09-20T02:08:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Obrigado pelos 48 mil! 🙏",
+   "formato": "Foto",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 25253,
+   "views": 29670,
+   "curtidas": 1340,
+   "comentarios": 106,
+   "compartilhamentos": 253,
+   "salvamentos": 108,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo40",
+   "data": "2026-09-19T15:44:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 83686,
+   "views": 147080,
+   "curtidas": 3801,
+   "comentarios": 344,
+   "compartilhamentos": 1942,
+   "salvamentos": 388,
+   "tempo_medio_reels_ms": 12963
+  },
+  {
+   "id": "demo41",
+   "data": "2026-09-17T16:13:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 73893,
+   "views": 155379,
+   "curtidas": 2501,
+   "comentarios": 222,
+   "compartilhamentos": 476,
+   "salvamentos": 204,
+   "tempo_medio_reels_ms": 5488
+  },
+  {
+   "id": "demo42",
+   "data": "2026-09-16T22:37:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 89344,
+   "views": 195268,
+   "curtidas": 4139,
+   "comentarios": 444,
+   "compartilhamentos": 801,
+   "salvamentos": 343,
+   "tempo_medio_reels_ms": 10381
+  },
+  {
+   "id": "demo43",
+   "data": "2026-09-14T22:09:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 16956,
+   "views": 20603,
+   "curtidas": 906,
+   "comentarios": 103,
+   "compartilhamentos": 190,
+   "salvamentos": 163,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo44",
+   "data": "2026-09-13T01:32:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 21756,
+   "views": 29957,
+   "curtidas": 1145,
+   "comentarios": 183,
+   "compartilhamentos": 686,
+   "salvamentos": 274,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo45",
+   "data": "2026-09-11T00:23:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 270154,
+   "views": 554190,
+   "curtidas": 7750,
+   "comentarios": 418,
+   "compartilhamentos": 1429,
+   "salvamentos": 612,
+   "tempo_medio_reels_ms": 8006
+  },
+  {
+   "id": "demo46",
+   "data": "2026-09-10T01:04:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 279810,
+   "views": 597450,
+   "curtidas": 15468,
+   "comentarios": 1122,
+   "compartilhamentos": 7776,
+   "salvamentos": 1555,
+   "tempo_medio_reels_ms": 8131
+  },
+  {
+   "id": "demo47",
+   "data": "2026-09-08T15:46:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "React do episódio de ontem #entretenimento",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 36981,
+   "views": 53343,
+   "curtidas": 1468,
+   "comentarios": 183,
+   "compartilhamentos": 312,
+   "salvamentos": 267,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo48",
+   "data": "2026-09-07T01:02:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 72935,
+   "views": 86417,
+   "curtidas": 2156,
+   "comentarios": 215,
+   "compartilhamentos": 1226,
+   "salvamentos": 490,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo49",
+   "data": "2026-09-05T22:03:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 90112,
+   "views": 153147,
+   "curtidas": 3168,
+   "comentarios": 354,
+   "compartilhamentos": 1650,
+   "salvamentos": 330,
+   "tempo_medio_reels_ms": 11613
+  },
+  {
+   "id": "demo50",
+   "data": "2026-09-04T23:12:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 40234,
+   "views": 54831,
+   "curtidas": 1429,
+   "comentarios": 116,
+   "compartilhamentos": 799,
+   "salvamentos": 319,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo51",
+   "data": "2026-09-02T15:04:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Obrigado pelos 48 mil! 🙏",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 63364,
+   "views": 134589,
+   "curtidas": 4173,
+   "comentarios": 258,
+   "compartilhamentos": 775,
+   "salvamentos": 332,
+   "tempo_medio_reels_ms": 12335
+  },
+  {
+   "id": "demo52",
+   "data": "2026-09-01T21:14:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 93210,
+   "views": 185868,
+   "curtidas": 2907,
+   "comentarios": 356,
+   "compartilhamentos": 570,
+   "salvamentos": 244,
+   "tempo_medio_reels_ms": 10642
+  },
+  {
+   "id": "demo53",
+   "data": "2026-08-30T21:24:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 26316,
+   "views": 42151,
+   "curtidas": 1442,
+   "comentarios": 164,
+   "compartilhamentos": 281,
+   "salvamentos": 120,
+   "tempo_medio_reels_ms": 7207
+  },
+  {
+   "id": "demo54",
+   "data": "2026-08-29T16:16:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Foto",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 21351,
+   "views": 34149,
+   "curtidas": 1089,
+   "comentarios": 108,
+   "compartilhamentos": 561,
+   "salvamentos": 112,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo55",
+   "data": "2026-08-27T16:06:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Reality: minha opinião sincera #bbb",
+   "formato": "Foto",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 20288,
+   "views": 32196,
+   "curtidas": 892,
+   "comentarios": 66,
+   "compartilhamentos": 167,
+   "salvamentos": 71,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo56",
+   "data": "2026-08-26T10:51:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "React do episódio de ontem #entretenimento",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 131325,
+   "views": 325124,
+   "curtidas": 6449,
+   "comentarios": 431,
+   "compartilhamentos": 1203,
+   "salvamentos": 515,
+   "tempo_medio_reels_ms": 4810
+  },
+  {
+   "id": "demo57",
+   "data": "2026-08-24T23:48:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Novidade chegando…",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 59359,
+   "views": 127628,
+   "curtidas": 1949,
+   "comentarios": 160,
+   "compartilhamentos": 368,
+   "salvamentos": 158,
+   "tempo_medio_reels_ms": 8878
+  },
+  {
+   "id": "demo58",
+   "data": "2026-08-23T00:16:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 32686,
+   "views": 44695,
+   "curtidas": 1630,
+   "comentarios": 107,
+   "compartilhamentos": 328,
+   "salvamentos": 281,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo59",
+   "data": "2026-08-21T01:31:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 131595,
+   "views": 254351,
+   "curtidas": 7462,
+   "comentarios": 619,
+   "compartilhamentos": 1414,
+   "salvamentos": 606,
+   "tempo_medio_reels_ms": 7152
+  },
+  {
+   "id": "demo60",
+   "data": "2026-08-20T23:05:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 86316,
+   "views": 207966,
+   "curtidas": 3022,
+   "comentarios": 163,
+   "compartilhamentos": 557,
+   "salvamentos": 238,
+   "tempo_medio_reels_ms": 10272
+  },
+  {
+   "id": "demo61",
+   "data": "2026-08-18T22:17:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 132259,
+   "views": 248318,
+   "curtidas": 9006,
+   "comentarios": 702,
+   "compartilhamentos": 4550,
+   "salvamentos": 910,
+   "tempo_medio_reels_ms": 5517
+  },
+  {
+   "id": "demo62",
+   "data": "2026-08-17T22:41:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 32014,
+   "views": 78392,
+   "curtidas": 2017,
+   "comentarios": 109,
+   "compartilhamentos": 372,
+   "salvamentos": 159,
+   "tempo_medio_reels_ms": 10966
+  },
+  {
+   "id": "demo63",
+   "data": "2026-08-15T22:37:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Foto",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 33339,
+   "views": 52295,
+   "curtidas": 2141,
+   "comentarios": 247,
+   "compartilhamentos": 1118,
+   "salvamentos": 223,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo64",
+   "data": "2026-08-14T11:14:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Obrigado pelos 48 mil! 🙏",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 25435,
+   "views": 58044,
+   "curtidas": 1599,
+   "comentarios": 167,
+   "compartilhamentos": 309,
+   "salvamentos": 132,
+   "tempo_medio_reels_ms": 11492
+  },
+  {
+   "id": "demo65",
+   "data": "2026-08-12T10:50:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "O juiz viu outro jogo 😂 #esporte",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 11379,
+   "views": 13278,
+   "curtidas": 552,
+   "comentarios": 74,
+   "compartilhamentos": 118,
+   "salvamentos": 101,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo66",
+   "data": "2026-08-11T01:07:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Todo torcedor depois da derrota kkkk #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 84667,
+   "views": 215353,
+   "curtidas": 2944,
+   "comentarios": 265,
+   "compartilhamentos": 1503,
+   "salvamentos": 300,
+   "tempo_medio_reels_ms": 4171
+  },
+  {
+   "id": "demo67",
+   "data": "2026-08-09T16:20:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Foto",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 108085,
+   "views": 147415,
+   "curtidas": 3958,
+   "comentarios": 352,
+   "compartilhamentos": 2019,
+   "salvamentos": 403,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo68",
+   "data": "2026-08-08T10:12:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 127509,
+   "views": 257570,
+   "curtidas": 4618,
+   "comentarios": 597,
+   "compartilhamentos": 2444,
+   "salvamentos": 488,
+   "tempo_medio_reels_ms": 7715
+  },
+  {
+   "id": "demo69",
+   "data": "2026-08-06T00:26:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Todo torcedor depois da derrota kkkk #humor",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 39256,
+   "views": 45263,
+   "curtidas": 1299,
+   "comentarios": 214,
+   "compartilhamentos": 781,
+   "salvamentos": 312,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo70",
+   "data": "2026-08-05T16:49:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Foto",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 31805,
+   "views": 39745,
+   "curtidas": 1822,
+   "comentarios": 133,
+   "compartilhamentos": 342,
+   "salvamentos": 146,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo71",
+   "data": "2026-08-03T15:31:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 97276,
+   "views": 247933,
+   "curtidas": 3161,
+   "comentarios": 324,
+   "compartilhamentos": 1633,
+   "salvamentos": 326,
+   "tempo_medio_reels_ms": 4387
+  },
+  {
+   "id": "demo72",
+   "data": "2026-08-02T10:45:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bom dia, galera! ☀️",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 25395,
+   "views": 63440,
+   "curtidas": 1536,
+   "comentarios": 162,
+   "compartilhamentos": 297,
+   "salvamentos": 127,
+   "tempo_medio_reels_ms": 6713
+  },
+  {
+   "id": "demo73",
+   "data": "2026-07-31T23:47:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 112679,
+   "views": 262021,
+   "curtidas": 6500,
+   "comentarios": 816,
+   "compartilhamentos": 1280,
+   "salvamentos": 548,
+   "tempo_medio_reels_ms": 6773
+  },
+  {
+   "id": "demo74",
+   "data": "2026-07-30T11:22:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "O juiz viu outro jogo 😂 #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 43762,
+   "views": 94575,
+   "curtidas": 2489,
+   "comentarios": 198,
+   "compartilhamentos": 470,
+   "salvamentos": 201,
+   "tempo_medio_reels_ms": 11085
+  },
+  {
+   "id": "demo75",
+   "data": "2026-07-28T15:23:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 32617,
+   "views": 42254,
+   "curtidas": 1667,
+   "comentarios": 157,
+   "compartilhamentos": 345,
+   "salvamentos": 295,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo76",
+   "data": "2026-07-27T22:02:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 28946,
+   "views": 43751,
+   "curtidas": 768,
+   "comentarios": 55,
+   "compartilhamentos": 155,
+   "salvamentos": 133,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo77",
+   "data": "2026-07-25T16:21:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 31672,
+   "views": 60698,
+   "curtidas": 1208,
+   "comentarios": 63,
+   "compartilhamentos": 222,
+   "salvamentos": 95,
+   "tempo_medio_reels_ms": 5070
+  },
+  {
+   "id": "demo78",
+   "data": "2026-07-24T22:45:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 100288,
+   "views": 203578,
+   "curtidas": 4449,
+   "comentarios": 538,
+   "compartilhamentos": 872,
+   "salvamentos": 373,
+   "tempo_medio_reels_ms": 4142
+  },
+  {
+   "id": "demo79",
+   "data": "2026-07-22T02:44:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 55326,
+   "views": 71786,
+   "curtidas": 1984,
+   "comentarios": 168,
+   "compartilhamentos": 407,
+   "salvamentos": 349,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo80",
+   "data": "2026-07-21T01:10:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 87859,
+   "views": 143549,
+   "curtidas": 4274,
+   "comentarios": 323,
+   "compartilhamentos": 804,
+   "salvamentos": 344,
+   "tempo_medio_reels_ms": 5723
+  },
+  {
+   "id": "demo81",
+   "data": "2026-07-19T11:13:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Novidade chegando…",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 23236,
+   "views": 53669,
+   "curtidas": 1037,
+   "comentarios": 71,
+   "compartilhamentos": 193,
+   "salvamentos": 83,
+   "tempo_medio_reels_ms": 11551
+  },
+  {
+   "id": "demo82",
+   "data": "2026-07-18T00:34:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 160366,
+   "views": 193164,
+   "curtidas": 8899,
+   "comentarios": 926,
+   "compartilhamentos": 5081,
+   "salvamentos": 2032,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo83",
+   "data": "2026-07-16T15:28:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "O juiz viu outro jogo 😂 #esporte",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 20655,
+   "views": 25178,
+   "curtidas": 1160,
+   "comentarios": 119,
+   "compartilhamentos": 241,
+   "salvamentos": 207,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo84",
+   "data": "2026-07-15T15:32:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 103297,
+   "views": 175660,
+   "curtidas": 4740,
+   "comentarios": 261,
+   "compartilhamentos": 875,
+   "salvamentos": 375,
+   "tempo_medio_reels_ms": 11778
+  },
+  {
+   "id": "demo85",
+   "data": "2026-07-13T22:58:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 32206,
+   "views": 59030,
+   "curtidas": 889,
+   "comentarios": 85,
+   "compartilhamentos": 170,
+   "salvamentos": 72,
+   "tempo_medio_reels_ms": 7181
+  },
+  {
+   "id": "demo86",
+   "data": "2026-07-12T02:11:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Obrigado pelos 48 mil! 🙏",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 52792,
+   "views": 125527,
+   "curtidas": 3467,
+   "comentarios": 208,
+   "compartilhamentos": 643,
+   "salvamentos": 275,
+   "tempo_medio_reels_ms": 9729
+  },
+  {
+   "id": "demo87",
+   "data": "2026-07-10T15:02:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 60998,
+   "views": 134160,
+   "curtidas": 3242,
+   "comentarios": 216,
+   "compartilhamentos": 604,
+   "salvamentos": 259,
+   "tempo_medio_reels_ms": 9361
+  },
+  {
+   "id": "demo88",
+   "data": "2026-07-09T23:19:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 158805,
+   "views": 318907,
+   "curtidas": 9219,
+   "comentarios": 1190,
+   "compartilhamentos": 4878,
+   "salvamentos": 975,
+   "tempo_medio_reels_ms": 12749
+  },
+  {
+   "id": "demo89",
+   "data": "2026-07-07T00:17:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 103199,
+   "views": 196861,
+   "curtidas": 6717,
+   "comentarios": 501,
+   "compartilhamentos": 1263,
+   "salvamentos": 541,
+   "tempo_medio_reels_ms": 9852
+  },
+  {
+   "id": "demo90",
+   "data": "2026-07-06T01:51:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 132676,
+   "views": 308873,
+   "curtidas": 4779,
+   "comentarios": 321,
+   "compartilhamentos": 2390,
+   "salvamentos": 478,
+   "tempo_medio_reels_ms": 10942
+  },
+  {
+   "id": "demo91",
+   "data": "2026-07-04T23:56:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 61090,
+   "views": 105684,
+   "curtidas": 1742,
+   "comentarios": 108,
+   "compartilhamentos": 323,
+   "salvamentos": 138,
+   "tempo_medio_reels_ms": 5458
+  },
+  {
+   "id": "demo92",
+   "data": "2026-07-03T00:32:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Foto",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 19250,
+   "views": 23539,
+   "curtidas": 665,
+   "comentarios": 48,
+   "compartilhamentos": 333,
+   "salvamentos": 66,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo93",
+   "data": "2026-07-01T01:12:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 12998,
+   "views": 15202,
+   "curtidas": 756,
+   "comentarios": 80,
+   "compartilhamentos": 431,
+   "salvamentos": 172,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo94",
+   "data": "2026-06-30T00:52:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 126087,
+   "views": 193602,
+   "curtidas": 5837,
+   "comentarios": 616,
+   "compartilhamentos": 1220,
+   "salvamentos": 1046,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo95",
+   "data": "2026-06-28T15:02:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 64037,
+   "views": 127022,
+   "curtidas": 2000,
+   "comentarios": 140,
+   "compartilhamentos": 374,
+   "salvamentos": 160,
+   "tempo_medio_reels_ms": 7155
+  },
+  {
+   "id": "demo96",
+   "data": "2026-06-27T01:43:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 40961,
+   "views": 88068,
+   "curtidas": 2121,
+   "comentarios": 157,
+   "compartilhamentos": 398,
+   "salvamentos": 170,
+   "tempo_medio_reels_ms": 9049
+  },
+  {
+   "id": "demo97",
+   "data": "2026-06-25T00:23:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 144240,
+   "views": 234155,
+   "curtidas": 7452,
+   "comentarios": 834,
+   "compartilhamentos": 3883,
+   "salvamentos": 776,
+   "tempo_medio_reels_ms": 11320
+  },
+  {
+   "id": "demo98",
+   "data": "2026-06-24T22:53:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "React do episódio de ontem #entretenimento",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 16176,
+   "views": 19381,
+   "curtidas": 463,
+   "comentarios": 41,
+   "compartilhamentos": 95,
+   "salvamentos": 81,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo99",
+   "data": "2026-06-22T00:02:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Reality: minha opinião sincera #bbb",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 200415,
+   "views": 465041,
+   "curtidas": 5705,
+   "comentarios": 612,
+   "compartilhamentos": 1105,
+   "salvamentos": 473,
+   "tempo_medio_reels_ms": 6231
+  },
+  {
+   "id": "demo100",
+   "data": "2026-06-21T23:46:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 151132,
+   "views": 261702,
+   "curtidas": 9433,
+   "comentarios": 688,
+   "compartilhamentos": 1771,
+   "salvamentos": 759,
+   "tempo_medio_reels_ms": 7622
+  },
+  {
+   "id": "demo101",
+   "data": "2026-06-19T01:16:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 30452,
+   "views": 53095,
+   "curtidas": 1363,
+   "comentarios": 163,
+   "compartilhamentos": 266,
+   "salvamentos": 114,
+   "tempo_medio_reels_ms": 13697
+  },
+  {
+   "id": "demo102",
+   "data": "2026-06-18T21:23:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 645227,
+   "views": 1141240,
+   "curtidas": 38041,
+   "comentarios": 2307,
+   "compartilhamentos": 7061,
+   "salvamentos": 3026,
+   "tempo_medio_reels_ms": 4795
+  },
+  {
+   "id": "demo103",
+   "data": "2026-06-16T02:28:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 148487,
+   "views": 368624,
+   "curtidas": 4329,
+   "comentarios": 705,
+   "compartilhamentos": 2360,
+   "salvamentos": 472,
+   "tempo_medio_reels_ms": 10086
+  },
+  {
+   "id": "demo104",
+   "data": "2026-06-15T23:09:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Que GOL foi esse?! ⚽ #futebol",
+   "formato": "Foto",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 12894,
+   "views": 17394,
+   "curtidas": 418,
+   "comentarios": 44,
+   "compartilhamentos": 80,
+   "salvamentos": 34,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo105",
+   "data": "2026-06-13T16:40:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Brasileirão: quem leva? #futebol",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 265463,
+   "views": 483577,
+   "curtidas": 9867,
+   "comentarios": 965,
+   "compartilhamentos": 1895,
+   "salvamentos": 812,
+   "tempo_medio_reels_ms": 12399
+  },
+  {
+   "id": "demo106",
+   "data": "2026-06-12T22:14:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Reels",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 135433,
+   "views": 224059,
+   "curtidas": 6678,
+   "comentarios": 494,
+   "compartilhamentos": 1255,
+   "salvamentos": 537,
+   "tempo_medio_reels_ms": 9851
+  },
+  {
+   "id": "demo107",
+   "data": "2026-06-10T16:37:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 67325,
+   "views": 163496,
+   "curtidas": 2294,
+   "comentarios": 155,
+   "compartilhamentos": 1148,
+   "salvamentos": 229,
+   "tempo_medio_reels_ms": 6446
+  },
+  {
+   "id": "demo108",
+   "data": "2026-06-09T15:55:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Esquete: o técnico do grupo do zap #humor",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 165118,
+   "views": 398193,
+   "curtidas": 11306,
+   "comentarios": 810,
+   "compartilhamentos": 5679,
+   "salvamentos": 1135,
+   "tempo_medio_reels_ms": 13743
+  },
+  {
+   "id": "demo109",
+   "data": "2026-06-07T23:46:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 158789,
+   "views": 254125,
+   "curtidas": 4745,
+   "comentarios": 326,
+   "compartilhamentos": 2377,
+   "salvamentos": 475,
+   "tempo_medio_reels_ms": 7893
+  },
+  {
+   "id": "demo110",
+   "data": "2026-06-06T11:00:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Bastidores do jogo de domingo #esporte",
+   "formato": "Foto",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 28838,
+   "views": 35723,
+   "curtidas": 1223,
+   "comentarios": 109,
+   "compartilhamentos": 233,
+   "salvamentos": 99,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo111",
+   "data": "2026-06-04T23:11:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 161958,
+   "views": 360512,
+   "curtidas": 10646,
+   "comentarios": 1438,
+   "compartilhamentos": 5664,
+   "salvamentos": 1132,
+   "tempo_medio_reels_ms": 12821
+  },
+  {
+   "id": "demo112",
+   "data": "2026-06-03T00:58:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Resumo do clássico em 30s #futebol",
+   "formato": "Carrossel",
+   "tema": "Esporte",
+   "miniatura": null,
+   "alcance": 32277,
+   "views": 43690,
+   "curtidas": 1064,
+   "comentarios": 69,
+   "compartilhamentos": 214,
+   "salvamentos": 183,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo113",
+   "data": "2026-06-01T00:59:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Quando o pai explica o impedimento #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 654449,
+   "views": 1512879,
+   "curtidas": 24165,
+   "comentarios": 2858,
+   "compartilhamentos": 12667,
+   "salvamentos": 2533,
+   "tempo_medio_reels_ms": 12572
+  },
+  {
+   "id": "demo114",
+   "data": "2026-05-31T15:05:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Novidade chegando…",
+   "formato": "Reels",
+   "tema": "Outros",
+   "miniatura": null,
+   "alcance": 40175,
+   "views": 94165,
+   "curtidas": 2525,
+   "comentarios": 270,
+   "compartilhamentos": 489,
+   "salvamentos": 209,
+   "tempo_medio_reels_ms": 7144
+  },
+  {
+   "id": "demo115",
+   "data": "2026-05-29T15:24:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Reality: minha opinião sincera #bbb",
+   "formato": "Reels",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 276438,
+   "views": 633828,
+   "curtidas": 14072,
+   "comentarios": 1760,
+   "compartilhamentos": 2770,
+   "salvamentos": 1187,
+   "tempo_medio_reels_ms": 11735
+  },
+  {
+   "id": "demo116",
+   "data": "2026-05-28T02:01:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 19775,
+   "views": 27816,
+   "curtidas": 709,
+   "comentarios": 51,
+   "compartilhamentos": 143,
+   "salvamentos": 123,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo117",
+   "data": "2026-05-26T15:09:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Tipos de amigo no churrasco #meme",
+   "formato": "Reels",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 150843,
+   "views": 388783,
+   "curtidas": 8631,
+   "comentarios": 599,
+   "compartilhamentos": 4326,
+   "salvamentos": 865,
+   "tempo_medio_reels_ms": 4698
+  },
+  {
+   "id": "demo118",
+   "data": "2026-05-25T11:54:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Todo torcedor depois da derrota kkkk #humor",
+   "formato": "Carrossel",
+   "tema": "Humor",
+   "miniatura": null,
+   "alcance": 47454,
+   "views": 72030,
+   "curtidas": 2449,
+   "comentarios": 417,
+   "compartilhamentos": 1481,
+   "salvamentos": 592,
+   "tempo_medio_reels_ms": null
+  },
+  {
+   "id": "demo119",
+   "data": "2026-05-23T00:24:32+0000",
+   "link": "https://www.instagram.com/",
+   "legenda": "Filme que todo mundo precisa ver #entretenimento",
+   "formato": "Carrossel",
+   "tema": "Entretenimento",
+   "miniatura": null,
+   "alcance": 18361,
+   "views": 22040,
+   "curtidas": 447,
+   "comentarios": 55,
+   "compartilhamentos": 94,
+   "salvamentos": 81,
+   "tempo_medio_reels_ms": null
+  }
+ ]
+}

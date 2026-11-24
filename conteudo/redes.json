@@ -1,0 +1,147 @@
+{
+  "total_seguidores": "+250k",
+  "total_texto": "seguidores em todas as redes",
+  "rede_principal_texto": "A rede social principal é o Instagram, mas também está presente no TikTok, Facebook, Kwai e YouTube.",
+  "redes": [
+    {
+      "nome": "Instagram",
+      "usuario": "@galeto.tv",
+      "periodo": "Dados atualizados todo dia",
+      "numeros": [
+        {
+          "valor": "157k",
+          "rotulo": "seguidores"
+        },
+        {
+          "valor": "+10M",
+          "rotulo": "de alcance"
+        },
+        {
+          "valor": "+22M",
+          "rotulo": "de visualizações"
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "faixa": "25 a 44 anos",
+          "percentual": 65.6
+        }
+      ],
+      "genero": {
+        "homens": 61,
+        "mulheres": 39
+      },
+      "cidades": [
+        {
+          "cidade": "Rio de Janeiro",
+          "percentual": 21.7
+        },
+        {
+          "cidade": "São Paulo",
+          "percentual": 4.0
+        },
+        {
+          "cidade": "Manaus",
+          "percentual": 2.0
+        }
+      ],
+      "perfil_mockup": {
+        "nome": "Felipe Pinto",
+        "posts": 1770,
+        "seguindo": 1225,
+        "verificado": true,
+        "avatar": "midia/mockups/ig/avatar.webp",
+        "bio": "✌️ Paz nos estádios!\n📍 Futebol • Esportes • Carnaval • Família\n✉️ contato.galetotv@gmail.com",
+        "link": "bit.ly/m/galetotv",
+        "destaques": [
+          {
+            "titulo": "Familia 😜",
+            "img": "midia/mockups/ig/destaque-1.webp"
+          },
+          {
+            "titulo": "Me segue!",
+            "img": "midia/mockups/ig/destaque-2.webp"
+          },
+          {
+            "titulo": "Copa 2026",
+            "img": "midia/mockups/ig/destaque-3.webp"
+          }
+        ],
+        "grade": [
+          "midia/mockups/ig/post-1.webp",
+          "midia/mockups/ig/post-2.webp",
+          "midia/mockups/ig/post-3.webp",
+          "midia/mockups/ig/post-4.webp",
+          "midia/mockups/ig/post-5.webp",
+          "midia/mockups/ig/post-6.webp"
+        ],
+        "chips": [
+          {
+            "icone": "chat",
+            "texto": "Plateia do Galeto.tv"
+          },
+          {
+            "icone": "threads",
+            "texto": "galeto.tv",
+            "extra": "1 nova"
+          },
+          {
+            "icone": "facebook",
+            "texto": "Galeto.tv"
+          },
+          {
+            "icone": "email",
+            "texto": "Email"
+          }
+        ],
+        "cards": [
+          "midia/mockups/ig/card-1.webp",
+          "midia/mockups/ig/card-2.webp"
+        ]
+      },
+      "interacoes": {
+        "total": "",
+        "curtidas": "",
+        "comentarios": "",
+        "compartilhamentos": "",
+        "salvamentos": ""
+      },
+      "alcance_numero": 10000000,
+      "taxa_engajamento": ""
+    }
+  ],
+  "outras_redes": [
+    {
+      "nome": "TikTok",
+      "usuario": "@galeto.tv",
+      "seguidores": "50.6k",
+      "visualizacoes": "+1.9M",
+      "periodo": "últimos 90 dias",
+      "rotulo_seguidores": "seguidores"
+    },
+    {
+      "nome": "Facebook",
+      "usuario": "@galeto.tv",
+      "seguidores": "20k",
+      "visualizacoes": "+3.3M",
+      "periodo": "últimos 90 dias",
+      "rotulo_seguidores": "seguidores"
+    },
+    {
+      "nome": "Kwai",
+      "usuario": "@galeto.tv",
+      "seguidores": "17.5k",
+      "visualizacoes": "+1M",
+      "periodo": "últimos 90 dias",
+      "rotulo_seguidores": "seguidores"
+    },
+    {
+      "nome": "YouTube",
+      "usuario": "@canal.galetotv",
+      "seguidores": "5k",
+      "visualizacoes": "1.4M",
+      "periodo": "últimos 90 dias",
+      "rotulo_seguidores": "inscritos"
+    }
+  ]
+}

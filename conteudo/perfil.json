@@ -1,0 +1,84 @@
+{
+  "nome": "Galeto.tv",
+  "usuario_instagram": "galeto.tv",
+  "slogan": "Entretenimento que vira resenha",
+  "territorios_linha": "Humor • Esporte • Entretenimento",
+  "bio": "Galeto é um **creator** que combina sua linguagem espontânea com **humor**, **esporte** e **situações do cotidiano**.\n\nSua força está na capacidade de transformar momentos simples em **narrativas que engajam**, **geram identificação** e **que são altamente compartilháveis**.",
+  "frase_destaque": "Mais do que audiência, o Galeto constrói conexão!",
+  "fechamento_bio": "E é isso que posiciona sua presença como um ativo estratégico para marcas parceiras.",
+  "foto_sobre": "",
+  "credenciais": [
+    {
+      "destaque": "3 anos",
+      "texto": "como creator"
+    },
+    {
+      "destaque": "Publicitário",
+      "texto": "com MBA em Branding & Marketing"
+    },
+    {
+      "destaque": "Designer",
+      "texto": "e Editor de Vídeo"
+    },
+    {
+      "destaque": "+10 anos",
+      "texto": "de experiência no mercado de comunicação"
+    },
+    {
+      "destaque": "",
+      "texto": "Mentorado pela **Vanessa Riche**"
+    }
+  ],
+  "territorios": [
+    {
+      "nome": "Humor",
+      "papel": "é a linguagem"
+    },
+    {
+      "nome": "Esporte",
+      "papel": "é o principal território"
+    },
+    {
+      "nome": "Entretenimento",
+      "papel": "é o potencial comercial"
+    }
+  ],
+  "variedade_titulo": "Mas não vem pensando que aqui é só futebol não, hein!",
+  "variedade_texto": "Galeto tem a habilidade de passear por diversos cenários populares sem perder a essência da sua identidade. Pode rolar o feed que tem **Carnaval**, tem **humor em casal**, tem **rotina** e tem **resenha com a galera em qualquer lugar**.",
+  "formatos": [
+    "Entrevistas",
+    "Reacts",
+    "Vlogs",
+    "Desafios",
+    "Esquetes"
+  ],
+  "contato": {
+    "email": "contato.galetotv@gmail.com",
+    "instagram": "https://www.instagram.com/galeto.tv/",
+    "tiktok": "https://www.tiktok.com/@galeto.tv",
+    "youtube": "https://www.youtube.com/@canal.galetotv"
+  },
+  "arrobas": [
+    {
+      "texto": "@galeto.tv",
+      "redes": "Instagram · TikTok · Facebook · Kwai",
+      "link": "https://www.instagram.com/galeto.tv/"
+    },
+    {
+      "texto": "@canal.galetotv",
+      "redes": "YouTube",
+      "link": "https://www.youtube.com/@canal.galetotv"
+    }
+  ],
+  "titulo_linha1": "Entretenimento",
+  "titulo_linha2": "que vira resenha",
+  "fotos_variedade": [
+    "midia/fotos/variedade-1.webp",
+    "midia/fotos/variedade-2.webp",
+    "midia/fotos/variedade-3.webp",
+    "midia/fotos/variedade-4.webp",
+    "midia/fotos/variedade-5.webp",
+    "midia/fotos/variedade-6.webp",
+    "midia/fotos/variedade-7.webp"
+  ]
+}

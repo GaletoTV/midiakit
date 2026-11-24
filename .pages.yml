@@ -1,0 +1,408 @@
+# Painel de edição do mídia kit (Pages CMS — https://app.pagescms.org)
+# Cada item abaixo vira uma tela com formulário para editar o site sem mexer em código.
+
+media:
+  - name: imagens
+    label: Imagens
+    input: midia
+    output: midia
+    extensions: [jpg, jpeg, png, webp, gif, svg]
+
+content:
+  # ------------------------------------------------------------ PARCERIAS
+  - name: parcerias
+    label: Parcerias
+    type: file
+    path: conteudo/parcerias.json
+    fields:
+      - name: mural
+        label: Mural de logos (slide 12) — cada logo abre 1 exemplo
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{marca}"
+        fields:
+          - name: marca
+            label: Marca
+            type: string
+          - name: logos
+            label: Logo(s) coloridos
+            type: image
+            list: true
+            options:
+              media: imagens
+              path: midia/mural
+          - name: link
+            label: Link do exemplo
+            type: string
+      - name: categorias
+        label: Categorias (aparecem como filtros)
+        type: string
+        list: true
+      - name: parcerias
+        label: Cases (um por slide)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{marca} — {categoria}"
+        fields:
+          - name: marca
+            label: Marca(s)
+            type: string
+            required: true
+          - name: categoria
+            label: Categoria
+            type: select
+            options:
+              values: [Esportes, Carnaval, Geral]
+          - name: logos
+            label: Logos do case (antes do "& Galeto.tv")
+            type: image
+            list: true
+            options:
+              media: imagens
+              path: midia/cases
+          - name: descricao
+            label: Descrição (use **palavra** para negrito)
+            type: text
+          - name: notas
+            label: Linhas extras (ex. Parceria com @...)
+            type: string
+            list: true
+          - name: thumb
+            label: Thumb única do card (opcional; vazio = 3 Reels do mosaico)
+            type: image
+            options:
+              media: imagens
+              path: midia/cases
+          - name: periodo
+            label: Período
+            type: string
+          - name: visualizacoes
+            label: Visualizações (ex. +130k)
+            type: string
+          - name: interacoes
+            label: Interações (ex. +1.5k)
+            type: string
+          - name: mosaico
+            label: Mosaico de fotos (posições em % da coluna do slide)
+            type: object
+            list: true
+            fields:
+              - name: img
+                label: Imagem
+                type: image
+                options:
+                  media: imagens
+                  path: midia/cases
+              - name: link
+                label: Link do conteúdo (vazio = só foto)
+                type: string
+              - name: x
+                label: Esquerda (%)
+                type: number
+              - name: y
+                label: Topo (%)
+                type: number
+              - name: w
+                label: Largura (%)
+                type: number
+              - name: h
+                label: Altura (%)
+                type: number
+
+  # ------------------------------------------------------------ VIRAIS
+  - name: virais
+    label: Virais
+    type: file
+    path: conteudo/virais.json
+    fields:
+      - name: titulo
+        label: Título da seção
+        type: string
+      - name: texto
+        label: Texto da seção
+        type: text
+      - name: virais
+        label: Virais (na ordem em que aparecem)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{visualizacoes} visualizações"
+        fields:
+          - name: titulo
+            label: Título curto (opcional)
+            type: string
+          - name: visualizacoes
+            label: Visualizações (ex. +9.6M)
+            type: string
+          - name: alcance
+            label: Alcance (ex. +6.1M)
+            type: string
+          - name: interacoes
+            label: Interações (ex. +199K)
+            type: string
+          - name: link
+            label: Link do post
+            type: string
+          - name: capa
+            label: Capa vertical
+            type: image
+            options:
+              media: imagens
+              path: midia/virais
+
+  # ------------------------------------------------------------ NÚMEROS
+  - name: redes
+    label: Números e audiência
+    type: file
+    path: conteudo/redes.json
+    fields:
+      - name: total_seguidores
+        label: Total de seguidores (ex. +250 mil)
+        type: string
+      - name: total_texto
+        label: Texto do total
+        type: string
+      - name: rede_principal_texto
+        label: Texto sobre as redes
+        type: text
+      - name: redes
+        label: Redes
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nome}"
+        fields:
+          - name: nome
+            label: Rede
+            type: string
+          - name: usuario
+            label: Usuário
+            type: string
+          - name: thumb
+            label: Thumb única do card (opcional; vazio = 3 Reels do mosaico)
+            type: image
+            options:
+              media: imagens
+              path: midia/cases
+          - name: periodo
+            label: Período dos dados (ex. 02.06.26 – 30.08.26)
+            type: string
+          - name: numeros
+            label: Números principais (1º seguidores, 2º alcance 90 dias, 3º visualizações 90 dias)
+            type: object
+            list: true
+            fields:
+              - name: valor
+                label: Valor (ex. 155k)
+                type: string
+              - name: rotulo
+                label: Rótulo (ex. seguidores)
+                type: string
+          - name: alcance_numero
+            label: Alcance de 90 dias em número inteiro (usado na taxa de engajamento, ex. 10000000)
+            type: number
+          - name: interacoes
+            label: Interações dos últimos 90 dias (só usadas enquanto o Instagram não estiver conectado)
+            type: object
+            fields:
+              - { name: total, label: Total, type: string }
+              - { name: curtidas, label: Curtidas, type: string }
+              - { name: comentarios, label: Comentários, type: string }
+              - { name: compartilhamentos, label: Compartilhamentos, type: string }
+              - { name: salvamentos, label: Salvamentos, type: string }
+          - name: taxa_engajamento
+            label: Taxa de engajamento manual (ex. 4,2%); calculada sozinha quando o Instagram estiver conectado
+            type: string
+          - name: faixa_etaria
+            label: Faixa etária
+            type: object
+            list: true
+            fields:
+              - name: faixa
+                type: string
+              - name: percentual
+                label: Percentual (%)
+                type: number
+          - name: genero
+            label: Gênero (%)
+            type: object
+            fields:
+              - name: homens
+                type: number
+              - name: mulheres
+                type: number
+          - name: cidades
+            label: Principais cidades
+            type: object
+            list: true
+            fields:
+              - name: cidade
+                type: string
+              - name: percentual
+                label: Percentual (%)
+                type: number
+
+  # ------------------------------------------------------------ CASE EM DESTAQUE
+  - name: destaques
+    label: Case em destaque
+    type: file
+    path: conteudo/destaques.json
+    fields:
+      - name: destaques
+        label: Cases em destaque
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titulo}"
+        fields:
+          - name: chapeu
+            label: Texto acima do título
+            type: string
+          - name: titulo
+            label: Título
+            type: string
+          - name: escudo
+            label: Escudo ao lado do título
+            type: image
+            options:
+              media: imagens
+              path: midia/logo
+          - name: datas
+            label: Datas
+            type: string
+          - name: texto
+            label: Texto (use **palavra** para destacar em rosa)
+            type: text
+          - name: numeros
+            label: Números
+            type: object
+            list: true
+            fields:
+              - name: valor
+                type: string
+              - name: rotulo
+                type: string
+          - name: parceiro
+            label: Nome do parceiro
+            type: string
+          - name: logo_parceiro
+            label: Logo do parceiro
+            type: image
+            options:
+              media: imagens
+              path: midia/parcerias
+          - name: videos
+            label: Conteúdos
+            type: object
+            list: true
+            fields:
+              - name: link
+                type: string
+              - name: capa
+                type: image
+                options:
+                  media: imagens
+                  path: midia/destaque
+
+  # ------------------------------------------------------------ PERFIL
+  - name: perfil
+    label: Perfil e contato
+    type: file
+    path: conteudo/perfil.json
+    fields:
+      - name: nome
+        type: string
+      - name: usuario_instagram
+        label: Usuário do Instagram
+        type: string
+      - name: slogan
+        type: string
+      - name: territorios_linha
+        label: Linha de territórios
+        type: string
+      - name: arrobas
+        label: Arrobas da abertura
+        type: object
+        list: true
+        fields:
+          - name: texto
+            label: Arroba (ex. @galeto.tv)
+            type: string
+          - name: redes
+            label: Redes (ex. Instagram · TikTok)
+            type: string
+          - name: link
+            type: string
+      - name: titulo_linha1
+        label: Título — linha 1 (ex. Entretenimento)
+        type: string
+      - name: titulo_linha2
+        label: Título — linha 2 (ex. que vira resenha)
+        type: string
+      - name: bio
+        label: Bio (use **palavra** para destacar em negrito)
+        type: text
+      - name: frase_destaque
+        label: Frase em destaque
+        type: string
+      - name: fechamento_bio
+        label: Fechamento da bio
+        type: text
+      - name: foto_sobre
+        label: Foto (opcional)
+        type: image
+        options:
+          media: imagens
+          path: midia/perfil
+      - name: credenciais
+        type: object
+        list: true
+        fields:
+          - name: destaque
+            type: string
+          - name: texto
+            type: string
+      - name: territorios
+        label: Territórios
+        type: object
+        list: true
+        fields:
+          - name: nome
+            type: string
+          - name: papel
+            type: string
+      - name: variedade_titulo
+        label: Título "não é só futebol"
+        type: string
+      - name: variedade_texto
+        label: Texto "não é só futebol"
+        type: text
+      - name: fotos_variedade
+        label: Fotos do carrossel abaixo de Territórios
+        type: image
+        list: true
+        options:
+          media: imagens
+          path: midia/fotos
+      - name: formatos
+        label: Formatos de conteúdo
+        type: string
+        list: true
+      - name: contato
+        type: object
+        fields:
+          - name: email
+            type: string
+          - name: instagram
+            type: string
+          - name: tiktok
+            type: string
+          - name: youtube
+            type: string

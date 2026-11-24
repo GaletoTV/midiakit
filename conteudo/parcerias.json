@@ -1,0 +1,1787 @@
+{
+  "mural": [
+    {
+      "marca": "Prime Sports",
+      "logos": [
+        "midia/mural/00-prime-sports.webp"
+      ],
+      "link": "https://www.instagram.com/p/DfgB3rWNQCw/"
+    },
+    {
+      "marca": "ge",
+      "logos": [
+        "midia/mural/01-ge.webp"
+      ],
+      "link": "https://www.instagram.com/reels/DZDFo30OsYc/"
+    },
+    {
+      "marca": "Assaí Atacadista",
+      "logos": [
+        "midia/mural/02-assai-atacadista.webp"
+      ],
+      "link": "https://www.instagram.com/p/DOGr6h7kcJN/"
+    },
+    {
+      "marca": "Romário TV",
+      "logos": [
+        "midia/mural/03-romario-tv.webp"
+      ],
+      "link": "https://www.instagram.com/p/Ddje724u-Xl/"
+    },
+    {
+      "marca": "ESPN",
+      "logos": [
+        "midia/mural/04-espn.webp"
+      ],
+      "link": "https://www.instagram.com/p/DdUw8q1CJ_j/"
+    },
+    {
+      "marca": "Vasco · BMG",
+      "logos": [
+        "midia/mural/05-vasco-bmg.webp"
+      ],
+      "link": "https://www.instagram.com/p/DN3NsrX2o_M/"
+    },
+    {
+      "marca": "Vasco TV · Sócio Gigante",
+      "logos": [
+        "midia/mural/06-vasco-tv-socio-gigante.webp"
+      ],
+      "link": "https://www.instagram.com/p/DNgv-O6pp-K/"
+    },
+    {
+      "marca": "Midea",
+      "logos": [
+        "midia/mural/00-midea.webp"
+      ],
+      "link": ""
+    },
+    {
+      "marca": "Movimento Verde Amarelo",
+      "logos": [
+        "midia/mural/07-movimento-verde-amarelo.webp"
+      ],
+      "link": "https://www.instagram.com/p/DOOh-FPDcz8/"
+    },
+    {
+      "marca": "inDrive",
+      "logos": [
+        "midia/mural/08-indrive.webp"
+      ],
+      "link": "https://www.instagram.com/p/C8IU2SBpSyy/"
+    },
+    {
+      "marca": "Obramax",
+      "logos": [
+        "midia/mural/09-obramax.webp"
+      ],
+      "link": "https://www.instagram.com/p/DFfoWCQp3rH/"
+    },
+    {
+      "marca": "Forneria Original",
+      "logos": [
+        "midia/mural/10-forneria-original.webp"
+      ],
+      "link": "https://www.instagram.com/p/C-V2PMkpB1T/"
+    },
+    {
+      "marca": "SailGP",
+      "logos": [
+        "midia/mural/11-sailgp.webp"
+      ],
+      "link": "https://www.instagram.com/p/DXCI-8EDV20/"
+    },
+    {
+      "marca": "Farmasi Arena",
+      "logos": [
+        "midia/mural/12-farmasi-arena.webp"
+      ],
+      "link": "https://www.instagram.com/p/DVOe8o0DVZC/"
+    },
+    {
+      "marca": "Espetto Carioca",
+      "logos": [
+        "midia/mural/13-espetto-carioca.webp"
+      ],
+      "link": "https://www.instagram.com/p/Dc9WJsUFHDC/"
+    },
+    {
+      "marca": "Cordão da Bola Preta",
+      "logos": [
+        "midia/mural/14-cordao-da-bola-preta.webp"
+      ],
+      "link": "https://www.instagram.com/p/DGthbOVJ3Rr/"
+    },
+    {
+      "marca": "D'Samba",
+      "logos": [
+        "midia/mural/15-d-samba.webp"
+      ],
+      "link": "https://www.instagram.com/reels/C3Vqoh2pyyK/"
+    },
+    {
+      "marca": "Bangu",
+      "logos": [
+        "midia/mural/16-bangu.webp"
+      ],
+      "link": "https://www.instagram.com/p/C6WR2ttLDV8/"
+    },
+    {
+      "marca": "Estrela Bet",
+      "logos": [
+        "midia/mural/17-estrela-bet.webp"
+      ],
+      "link": "https://www.instagram.com/p/DH6O40vp8RO/"
+    },
+    {
+      "marca": "Absolut Sport",
+      "logos": [
+        "midia/mural/18-absolut-sport.webp"
+      ],
+      "link": "https://www.instagram.com/p/DKhoDNbOyZ4/"
+    },
+    {
+      "marca": "Super Bom",
+      "logos": [
+        "midia/mural/19-super-bom.webp"
+      ],
+      "link": "https://www.instagram.com/p/DDxibikJsGh/"
+    },
+    {
+      "marca": "Salgueiro · Bateria Furiosa",
+      "logos": [
+        "midia/mural/20-salgueiro-bateria-furiosa-1.webp",
+        "midia/mural/20-salgueiro-bateria-furiosa-2.webp"
+      ],
+      "link": "https://www.instagram.com/reel/C2iiHIHp_I-/"
+    },
+    {
+      "marca": "Restaurante Fantástico",
+      "logos": [
+        "midia/mural/21-restaurante-fantastico.webp"
+      ],
+      "link": "https://www.instagram.com/p/DZKxkooB9oL/"
+    }
+  ],
+  "categorias": [
+    "Esportes",
+    "Carnaval",
+    "Geral"
+  ],
+  "parcerias": [
+    {
+      "marca": "Romário TV",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/01-romario-tv-logo1.webp"
+      ],
+      "descricao": "Participações como convidado do Zona Mista, programa do YouTube da Romário TV com apresentação do Fábio Azevedo e comentários do Ricardo Rocha e Maicon, gerando cortes para diversas redes.",
+      "notas": [],
+      "periodo": "Setembro/26 - Novembro/26",
+      "visualizacoes": "+155k",
+      "interacoes": "+2k",
+      "mosaico": [
+        {
+          "img": "midia/cases/01-romario-tv-1.webp",
+          "x": 0.0,
+          "y": -0.12,
+          "w": 101.77,
+          "h": 41.85,
+          "link": "https://www.youtube.com/watch?v=Zn_4g-Vj3LQ&t=5s"
+        },
+        {
+          "img": "midia/cases/01-romario-tv-3.webp",
+          "x": 0.0,
+          "y": 41.85,
+          "w": 54.53,
+          "h": 58.15,
+          "link": "https://www.instagram.com/reels/Ddje724u-Xl/"
+        },
+        {
+          "img": "midia/cases/01-romario-tv-7.webp",
+          "x": 55.85,
+          "y": 41.85,
+          "w": 45.7,
+          "h": 58.15,
+          "link": "https://www.instagram.com/p/Dfr9JIjBVJG/"
+        }
+      ],
+      "thumb": "midia/cases/01-romario-tv-1.webp"
+    },
+    {
+      "marca": "Prime Sports",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/05-prime-sports-logo1.webp"
+      ],
+      "descricao": "Cobertura completa da semifinal da Copa do Brasil entre Vasco x Palmeiras do pré-jogo ao gramado de São Januário.",
+      "notas": [],
+      "periodo": "Novembro/26",
+      "visualizacoes": "+2M",
+      "interacoes": "+85k",
+      "mosaico": [
+        {
+          "img": "midia/cases/05-prime-sports-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/reels/DfiQR5BJn4T/"
+        },
+        {
+          "img": "midia/cases/05-prime-sports-2.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/reels/DfgB3rWNQCw/"
+        },
+        {
+          "img": "midia/cases/05-prime-sports-3.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DfhRhKeu7to/"
+        },
+        {
+          "img": "midia/cases/05-prime-sports-4.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 28.27,
+          "link": "https://www.instagram.com/reels/DfioGmktNI6/"
+        },
+        {
+          "img": "midia/cases/05-prime-sports-5.webp",
+          "x": 50.55,
+          "y": 28.89,
+          "w": 49.45,
+          "h": 36.91,
+          "link": "https://www.instagram.com/reels/DffawSlhAxY/"
+        },
+        {
+          "img": "midia/cases/05-prime-sports-6.webp",
+          "x": 50.55,
+          "y": 66.3,
+          "w": 49.45,
+          "h": 33.7,
+          "link": "https://www.instagram.com/reels/Dfh7LqpOP7Y/"
+        }
+      ]
+    },
+    {
+      "marca": "Assaí Atacadista",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/03-assai-atacadista-logo1.webp"
+      ],
+      "descricao": "Convidado no Comidas de Estádio para a partida entre Vasco x Botafogo. Este quadro era apresentado pelo Brabo Gordinho e rodava o país em jogos da Copa do Brasil, sempre com a presença de um representante do time da casa. No dia seguinte ao jogo houve a gravação com o vencedor em uma loja Assaí.",
+      "notas": [],
+      "periodo": "Agosto/25",
+      "visualizacoes": "+24.8k",
+      "interacoes": "+700",
+      "mosaico": [
+        {
+          "img": "midia/cases/03-assai-atacadista-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 100.0,
+          "h": 63.7,
+          "link": "https://www.instagram.com/p/DOGr6h7kcJN/"
+        },
+        {
+          "img": "midia/cases/03-assai-atacadista-2.webp",
+          "x": 0.0,
+          "y": 64.32,
+          "w": 100.0,
+          "h": 35.68,
+          "link": "https://www.youtube.com/watch?v=Vt1Imp43Jl4"
+        }
+      ],
+      "thumb": "midia/cases/03-assai-atacadista-thumb.webp",
+      "logo_grande": true
+    },
+    {
+      "marca": "ge",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/04-ge-logo1.webp"
+      ],
+      "descricao": "Collab em conteúdos de Copa do Mundo.",
+      "notas": [],
+      "periodo": "Copa do Mundo 2026",
+      "visualizacoes": "+45k",
+      "interacoes": "+1.2k",
+      "mosaico": [
+        {
+          "img": "midia/cases/04-ge-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.48,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/04-ge-2.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 47.28,
+          "link": "https://www.instagram.com/reels/DaaZ198usLx/"
+        },
+        {
+          "img": "midia/cases/04-ge-3.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 45.06,
+          "link": "https://www.instagram.com/reels/DZDFo30OsYc/"
+        },
+        {
+          "img": "midia/cases/04-ge-4.webp",
+          "x": 50.55,
+          "y": 62.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/04-ge-5.webp",
+          "x": 0.0,
+          "y": 80.37,
+          "w": 49.45,
+          "h": 19.63,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/04-ge-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "Banco BMG",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/02-banco-bmg-logo1.webp"
+      ],
+      "descricao": "Produção de conteúdo para divulgação de produtos do Banco e apresentação de ações da marca.",
+      "notas": [],
+      "periodo": "Agosto/25 - Atual",
+      "visualizacoes": "+500k",
+      "interacoes": "+28k",
+      "mosaico": [
+        {
+          "img": "midia/cases/02-banco-bmg-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/p/DNsl15fQGan/"
+        },
+        {
+          "img": "midia/cases/02-banco-bmg-2.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/reel/DW3_v04jRhp/"
+        },
+        {
+          "img": "midia/cases/02-banco-bmg-3.webp",
+          "x": 50.55,
+          "y": 28.77,
+          "w": 49.45,
+          "h": 36.91,
+          "link": "https://www.instagram.com/p/DN3NsrX2o_M/"
+        },
+        {
+          "img": "midia/cases/02-banco-bmg-4.webp",
+          "x": 50.55,
+          "y": 66.42,
+          "w": 49.45,
+          "h": 33.58,
+          "link": "https://www.instagram.com/reel/DPRVccejUpO/"
+        },
+        {
+          "img": "midia/cases/02-banco-bmg-5.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DWSA8W5ggtM/"
+        },
+        {
+          "img": "midia/cases/02-banco-bmg-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 27.78,
+          "link": "https://www.instagram.com/p/De9jQW1AB95/"
+        }
+      ]
+    },
+    {
+      "marca": "Start",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/06-start-logo1.webp"
+      ],
+      "descricao": "Parceria com foco em Branding para desenvolvimento de conteúdos sobre futebol e também participação em ações para programas no canal do YouTube.",
+      "notas": [],
+      "periodo": "Outubro/25 - Janeiro/25",
+      "visualizacoes": "+1M",
+      "interacoes": "+120k",
+      "mosaico": [
+        {
+          "img": "midia/cases/06-start-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 32.59,
+          "link": "https://www.instagram.com/reel/DSIzKRODUGT/"
+        },
+        {
+          "img": "midia/cases/06-start-2.webp",
+          "x": 0.0,
+          "y": 33.33,
+          "w": 49.45,
+          "h": 40.49,
+          "link": "https://www.instagram.com/reel/DP2f9-ajRHI/"
+        },
+        {
+          "img": "midia/cases/06-start-3.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 36.67,
+          "link": "https://www.instagram.com/reel/DRo883pjRpO/"
+        },
+        {
+          "img": "midia/cases/06-start-4.webp",
+          "x": 50.55,
+          "y": 37.16,
+          "w": 49.45,
+          "h": 36.67,
+          "link": "https://www.instagram.com/p/DQNCZfPj2fT/"
+        },
+        {
+          "img": "midia/cases/06-start-5.webp",
+          "x": 0.0,
+          "y": 74.44,
+          "w": 100.0,
+          "h": 25.56,
+          "link": "https://youtu.be/tuMoiXWDcK8?si=mppNgbM1qdaWMbc0"
+        }
+      ]
+    },
+    {
+      "marca": "Vasco Store",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/07-vasco-store-logo1.webp"
+      ],
+      "descricao": "Projeto Embaixador Vasco Store, a loja online oficial do Clube. Produção de conteúdos diversos, como brincadeiras com prêmios na porta de estádio e conteúdos em loja física.",
+      "notas": [],
+      "periodo": "Setembro/24 - Dezembro/25",
+      "visualizacoes": "+1.6M",
+      "interacoes": "+150k",
+      "mosaico": [
+        {
+          "img": "midia/cases/07-vasco-store-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/07-vasco-store-2.webp",
+          "x": 0.0,
+          "y": 42.1,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/p/DDFIzHMJkJ2/"
+        },
+        {
+          "img": "midia/cases/07-vasco-store-3.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/p/DBBlz3UpMsj/"
+        },
+        {
+          "img": "midia/cases/07-vasco-store-4.webp",
+          "x": 50.55,
+          "y": 58.52,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/07-vasco-store-5.webp",
+          "x": 0.0,
+          "y": 84.2,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/07-vasco-store-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "marca": "Estrela Bet",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/08-estrela-bet-logo1.webp"
+      ],
+      "descricao": "Produção de conteúdos em ações da Estrela Bet para o R10 Scrore Vasco da Gama, time de basquete do clube.",
+      "notas": [],
+      "periodo": "Fevereiro/25 - Maio/25",
+      "visualizacoes": "+100k",
+      "interacoes": "+2.8k",
+      "mosaico": [
+        {
+          "img": "midia/cases/08-estrela-bet-1.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/p/DH6O40vp8RO/"
+        },
+        {
+          "img": "midia/cases/08-estrela-bet-2.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/reels/DJj-4YiphrS/"
+        },
+        {
+          "img": "midia/cases/08-estrela-bet-3.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/reels/DGG5ddsOy9q/"
+        },
+        {
+          "img": "midia/cases/08-estrela-bet-4.webp",
+          "x": 50.55,
+          "y": 58.52,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/p/DGI4h83OrX5/"
+        },
+        {
+          "img": "midia/cases/08-estrela-bet-5.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DJcZsfeprsa/"
+        },
+        {
+          "img": "midia/cases/08-estrela-bet-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "marca": "Obramax",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/09-obramax-logo1.webp"
+      ],
+      "descricao": "Desenvolvimento de dois conteúdos de MatchDay em jogos de clubes patrocinados pela Obramax no Campeonato Carioca: o Bangu e o Nova Iguaçu.",
+      "notas": [],
+      "periodo": "Fevereiro/25",
+      "visualizacoes": "+44.6k",
+      "interacoes": "+1.1k",
+      "mosaico": [
+        {
+          "img": "midia/cases/09-obramax-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 29.38,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/09-obramax-2.webp",
+          "x": 0.0,
+          "y": 29.88,
+          "w": 49.45,
+          "h": 45.8,
+          "link": "https://www.instagram.com/p/DGLaKKDJpbP/"
+        },
+        {
+          "img": "midia/cases/09-obramax-3.webp",
+          "x": 50.55,
+          "y": 68.52,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/09-obramax-4.webp",
+          "x": 0.0,
+          "y": 76.17,
+          "w": 49.45,
+          "h": 23.7,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/09-obramax-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/09-obramax-6.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 51.36,
+          "link": "https://www.instagram.com/p/DFfoWCQp3rH/"
+        }
+      ]
+    },
+    {
+      "marca": "Vasco Store · Sócio Gigante · Vasco TV",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/10-vasco-store-socio-gigante-vasco-tv-logo1.webp",
+        "midia/cases/10-vasco-store-socio-gigante-vasco-tv-logo2.webp",
+        "midia/cases/10-vasco-store-socio-gigante-vasco-tv-logo3.webp"
+      ],
+      "descricao": "Apresentação de um quadro ao vivo na Vasco TV em parceria da Vasco Store, Sócio Gigante e a própria Vasco TV.",
+      "notas": [],
+      "periodo": "Agosto/25",
+      "visualizacoes": "+36k",
+      "interacoes": "+1.4k",
+      "mosaico": [
+        {
+          "img": "midia/cases/10-vasco-store-socio-gigante-vasco-tv-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 100.0,
+          "h": 63.7,
+          "link": "https://www.instagram.com/reels/DNgv-O6pp-K/"
+        },
+        {
+          "img": "midia/cases/10-vasco-store-socio-gigante-vasco-tv-2.webp",
+          "x": 0.0,
+          "y": 64.32,
+          "w": 100.0,
+          "h": 35.68,
+          "link": "https://www.youtube.com/watch?v=H2j50IKslwI&t=2037s"
+        }
+      ],
+      "thumb": "midia/cases/10-vasco-store-socio-gigante-vasco-tv-2.webp"
+    },
+    {
+      "marca": "Movimento Verde Amarelo · SailGP",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/11-movimento-verde-amarelo-sailgp-logo1.webp",
+        "midia/cases/11-movimento-verde-amarelo-sailgp-logo2.webp"
+      ],
+      "descricao": "Cobertura do evento Sail GP, competição internacional de vela com os maiores nomes do esporte, que aconteceu no Rio de Janeiro. A produção de conteúdo abrangeu entrevistas com celebridades, atletas, público em geral e parceria com o Movimento Verde e Amarelo, a torcida oficial do Brasil.",
+      "notas": [],
+      "periodo": "Abril/26",
+      "visualizacoes": "+40k",
+      "interacoes": "+1.4k",
+      "mosaico": [
+        {
+          "img": "midia/cases/11-movimento-verde-amarelo-sailgp-1.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/reel/DXFhtdOCbJx/"
+        },
+        {
+          "img": "midia/cases/11-movimento-verde-amarelo-sailgp-2.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/reels/DXCI-8EDV20/"
+        },
+        {
+          "img": "midia/cases/11-movimento-verde-amarelo-sailgp-3.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/reels/DXCf7zFDcaB/"
+        },
+        {
+          "img": "midia/cases/11-movimento-verde-amarelo-sailgp-4.webp",
+          "x": 50.55,
+          "y": 58.52,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/reels/DXE_DhBjR4r/"
+        },
+        {
+          "img": "midia/cases/11-movimento-verde-amarelo-sailgp-5.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DXCDt14DuFc/"
+        },
+        {
+          "img": "midia/cases/11-movimento-verde-amarelo-sailgp-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "marca": "Movimento Verde Amarelo",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/12-movimento-verde-amarelo-logo1.webp"
+      ],
+      "descricao": "Cobertura de jogos da Seleção Brasileira no Rio de Janeiro.",
+      "notas": [],
+      "periodo": "Setembro/25 e Junho/26",
+      "visualizacoes": "+120k",
+      "interacoes": "+3.5k",
+      "mosaico": [
+        {
+          "img": "midia/cases/12-movimento-verde-amarelo-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DOOh-FPDcz8/"
+        },
+        {
+          "img": "midia/cases/12-movimento-verde-amarelo-2.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/reels/DZDzMcNqkZ6/"
+        },
+        {
+          "img": "midia/cases/12-movimento-verde-amarelo-3.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/reels/DZDFo30OsYc/"
+        },
+        {
+          "img": "midia/cases/12-movimento-verde-amarelo-4.webp",
+          "x": 50.55,
+          "y": 58.52,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/p/DORj2TAD5V4/"
+        },
+        {
+          "img": "midia/cases/12-movimento-verde-amarelo-5.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DOPCLlSD8L-/"
+        },
+        {
+          "img": "midia/cases/12-movimento-verde-amarelo-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "Forneria Original",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/13-forneria-original-logo1.webp"
+      ],
+      "descricao": "Produção de um conteúdo criativo para o período das Olimpíadas com divulgação de cupom.",
+      "notas": [],
+      "periodo": "Agosto/24",
+      "visualizacoes": "+51k",
+      "interacoes": "+1.7k",
+      "mosaico": [
+        {
+          "img": "midia/cases/13-forneria-original-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 29.38,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/13-forneria-original-2.webp",
+          "x": 0.0,
+          "y": 29.88,
+          "w": 49.45,
+          "h": 45.8,
+          "link": "https://www.instagram.com/p/DGLaKKDJpbP/"
+        },
+        {
+          "img": "midia/cases/13-forneria-original-3.webp",
+          "x": 50.55,
+          "y": 68.52,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/13-forneria-original-4.webp",
+          "x": 0.0,
+          "y": 76.17,
+          "w": 49.45,
+          "h": 23.7,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/13-forneria-original-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/13-forneria-original-6.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 51.36,
+          "link": "https://www.instagram.com/p/C-V2PMkpB1T/"
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "CazéTV · Ligue 1",
+      "categoria": "Esportes",
+      "logos": [
+        "midia/cases/14-cazetv-ligue-1-logo1.webp"
+      ],
+      "descricao": "Produção de conteúdo para a Liga Francesa em evento realizado pela Cazé TV para a transmissão do clássico entre PSG x Lyon.",
+      "notas": [
+        "Parceria com: @robgolbr e @rangelvitor"
+      ],
+      "periodo": "Abril/26",
+      "visualizacoes": "+60k",
+      "interacoes": "+2.6k",
+      "mosaico": [
+        {
+          "img": "midia/cases/14-cazetv-ligue-1-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 37.53,
+          "link": "https://www.instagram.com/reels/DXcsOaUiqYD/"
+        },
+        {
+          "img": "midia/cases/14-cazetv-ligue-1-2.webp",
+          "x": 0.0,
+          "y": 38.15,
+          "w": 49.45,
+          "h": 45.8,
+          "link": "https://www.instagram.com/reels/DXcKOZuDHiu/"
+        },
+        {
+          "img": "midia/cases/14-cazetv-ligue-1-3.webp",
+          "x": 50.55,
+          "y": 68.52,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/14-cazetv-ligue-1-4.webp",
+          "x": 0.0,
+          "y": 84.44,
+          "w": 49.45,
+          "h": 15.56,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/14-cazetv-ligue-1-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/14-cazetv-ligue-1-6.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 51.36,
+          "link": "https://www.instagram.com/reels/DXXmwkcDElS/"
+        }
+      ]
+    },
+    {
+      "marca": "Cordão da Bola Preta",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/15-cordao-da-bola-preta-logo1.webp"
+      ],
+      "descricao": "Parceria de cobertura do Desfile de Carnaval do Cordão da Bola Preta, um dos blocos mais tradicionais do Brasil, por dois carnavais.",
+      "notas": [],
+      "periodo": "Carnaval/25 & Carnaval/26",
+      "visualizacoes": "+800k",
+      "interacoes": "+50k",
+      "mosaico": [
+        {
+          "img": "midia/cases/15-cordao-da-bola-preta-1.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/reel/DU0rI5RDbGK/"
+        },
+        {
+          "img": "midia/cases/15-cordao-da-bola-preta-2.webp",
+          "x": 0.0,
+          "y": 32.47,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/p/DGthbOVJ3Rr/"
+        },
+        {
+          "img": "midia/cases/15-cordao-da-bola-preta-3.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/reels/DVBiD58jQfs/"
+        },
+        {
+          "img": "midia/cases/15-cordao-da-bola-preta-4.webp",
+          "x": 50.55,
+          "y": 58.52,
+          "w": 49.45,
+          "h": 41.48,
+          "link": "https://www.instagram.com/p/DGs3Q_BpAEh/"
+        },
+        {
+          "img": "midia/cases/15-cordao-da-bola-preta-5.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DU35MWQj1No/"
+        },
+        {
+          "img": "midia/cases/15-cordao-da-bola-preta-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "Salgueiro · Bateria Furiosa",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/16-salgueiro-bateria-furiosa-logo1.webp",
+        "midia/cases/16-salgueiro-bateria-furiosa-logo2.webp"
+      ],
+      "descricao": "Cobertura do Pré-Carnaval 2024 da Escola com formatos diversos de conteúdo, somando um total de 15 Reels produzidos em eventos na quadra, ensaios de rua e ensaio técnico na Sapucaí.",
+      "notas": [],
+      "periodo": "Pré-Carnaval/24",
+      "visualizacoes": "+800k",
+      "interacoes": "+38k",
+      "mosaico": [
+        {
+          "img": "midia/cases/16-salgueiro-bateria-furiosa-1.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 46.79,
+          "link": "https://www.instagram.com/reel/C2Ygnk3LnZf/"
+        },
+        {
+          "img": "midia/cases/16-salgueiro-bateria-furiosa-2.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/reel/C2IqY2lpiE-/"
+        },
+        {
+          "img": "midia/cases/16-salgueiro-bateria-furiosa-3.webp",
+          "x": 50.55,
+          "y": 63.83,
+          "w": 49.45,
+          "h": 36.17,
+          "link": "https://www.instagram.com/reel/C2dJ6iNpUqd/"
+        },
+        {
+          "img": "midia/cases/16-salgueiro-bateria-furiosa-4.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reel/C2IJmaVrLJJ/"
+        },
+        {
+          "img": "midia/cases/16-salgueiro-bateria-furiosa-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/16-salgueiro-bateria-furiosa-6.webp",
+          "x": 0.0,
+          "y": 32.47,
+          "w": 49.45,
+          "h": 37.41,
+          "link": "https://www.instagram.com/reel/C2iiHIHp_I-/"
+        }
+      ],
+      "logo_grande": true,
+      "card_sem_e": true
+    },
+    {
+      "marca": "D'Samba",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/17-d-samba-logo1.webp"
+      ],
+      "descricao": "Cobertura dos Ensaios Técnicos Pré-Carnaval e dos Desfiles do Grupo Especial do Carnaval 2024 na Sapucaí. A D’Samba era a marca oficial e licenciada da Liesa e, para apresentar os produtos de todas as Escolas, foram desenvolvidos conteúdos no formato de entrevistas e de brincadeiras com prêmios.",
+      "notas": [],
+      "periodo": "Pré-Carnaval e Carnaval/24",
+      "visualizacoes": "+900k",
+      "interacoes": "+35k",
+      "mosaico": [
+        {
+          "img": "midia/cases/17-d-samba-1.webp",
+          "x": 50.55,
+          "y": 16.54,
+          "w": 49.45,
+          "h": 50.86,
+          "link": "https://www.instagram.com/reel/C3i6j3kJ26J/"
+        },
+        {
+          "img": "midia/cases/17-d-samba-2.webp",
+          "x": 0.0,
+          "y": 38.02,
+          "w": 49.45,
+          "h": 45.68,
+          "link": "https://www.instagram.com/reel/C3GDGg3JoOU/"
+        },
+        {
+          "img": "midia/cases/17-d-samba-3.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 37.53,
+          "link": "https://www.instagram.com/reel/C2aKOu1LzGS/"
+        },
+        {
+          "img": "midia/cases/17-d-samba-4.webp",
+          "x": 50.55,
+          "y": 68.52,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/17-d-samba-5.webp",
+          "x": 0.0,
+          "y": 84.44,
+          "w": 49.45,
+          "h": 15.56,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/17-d-samba-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "marca": "Portela",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/18-portela-logo1.webp"
+      ],
+      "descricao": "Cobertura do ensaio de rua da Portela, com produção de um clipe do samba completo com cortes reais de componentes e público da comunidade cantando e entrevistas.",
+      "notas": [],
+      "periodo": "Pré-Carnaval/26",
+      "visualizacoes": "+329k",
+      "interacoes": "+33k",
+      "mosaico": [
+        {
+          "img": "midia/cases/18-portela-1.webp",
+          "x": 50.55,
+          "y": 16.54,
+          "w": 49.45,
+          "h": 50.86,
+          "link": "https://www.instagram.com/p/DTbeZAYjdHD/"
+        },
+        {
+          "img": "midia/cases/18-portela-2.webp",
+          "x": 0.0,
+          "y": 38.02,
+          "w": 49.45,
+          "h": 45.68,
+          "link": "https://www.instagram.com/p/DTfufYDjePC/"
+        },
+        {
+          "img": "midia/cases/18-portela-3.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 37.53,
+          "link": "https://www.instagram.com/p/DTalXuRjVEh/"
+        },
+        {
+          "img": "midia/cases/18-portela-4.webp",
+          "x": 50.55,
+          "y": 68.52,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/18-portela-5.webp",
+          "x": 0.0,
+          "y": 84.44,
+          "w": 49.45,
+          "h": 15.56,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/18-portela-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "Mocidade",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/19-mocidade-logo1.webp"
+      ],
+      "descricao": "Cobertura do ensaio de rua da Mocidade, com produção de um clipe do samba completo com cortes reais de componentes e público da comunidade cantando e entrevistas.",
+      "notas": [],
+      "periodo": "Pré-Carnaval/26",
+      "visualizacoes": "+90k",
+      "interacoes": "+3.5k",
+      "mosaico": [
+        {
+          "img": "midia/cases/19-mocidade-1.webp",
+          "x": 50.55,
+          "y": 12.84,
+          "w": 49.45,
+          "h": 50.86,
+          "link": "https://www.instagram.com/reels/DT3oKQYj04o/"
+        },
+        {
+          "img": "midia/cases/19-mocidade-2.webp",
+          "x": 0.0,
+          "y": 38.02,
+          "w": 49.45,
+          "h": 45.68,
+          "link": "https://www.instagram.com/reels/DTv9EzgDff2/"
+        },
+        {
+          "img": "midia/cases/19-mocidade-3.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 37.53,
+          "link": "https://www.instagram.com/reels/DTprgpDjpIH/"
+        },
+        {
+          "img": "midia/cases/19-mocidade-4.webp",
+          "x": 50.55,
+          "y": 64.57,
+          "w": 49.45,
+          "h": 35.19,
+          "link": "https://www.instagram.com/reels/DTveXodDnXA/"
+        },
+        {
+          "img": "midia/cases/19-mocidade-5.webp",
+          "x": 0.0,
+          "y": 84.44,
+          "w": 49.45,
+          "h": 15.56,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/19-mocidade-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 11.98,
+          "link": ""
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "Salgueiro",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/20-salgueiro-logo1.webp"
+      ],
+      "descricao": "Cobertura do ensaio de rua do Salgueiro, com produção de um clipe do samba completo com cortes reais de componentes e público da comunidade cantando e entrevistas.",
+      "notas": [],
+      "periodo": "Pré-Carnaval/26",
+      "visualizacoes": "+285k",
+      "interacoes": "+15k",
+      "mosaico": [
+        {
+          "img": "midia/cases/20-salgueiro-1.webp",
+          "x": 50.55,
+          "y": 12.84,
+          "w": 49.45,
+          "h": 50.86,
+          "link": "https://www.instagram.com/reels/DTljagND-eJ/"
+        },
+        {
+          "img": "midia/cases/20-salgueiro-2.webp",
+          "x": 0.0,
+          "y": 38.02,
+          "w": 49.45,
+          "h": 45.68,
+          "link": "https://www.instagram.com/reels/DTnv71XjfWw/"
+        },
+        {
+          "img": "midia/cases/20-salgueiro-3.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 37.53,
+          "link": "https://www.instagram.com/reels/DTlO3_WD5o2/"
+        },
+        {
+          "img": "midia/cases/20-salgueiro-4.webp",
+          "x": 50.55,
+          "y": 64.81,
+          "w": 49.45,
+          "h": 35.19,
+          "link": "https://www.instagram.com/reels/DTvLv6cjYxu/"
+        },
+        {
+          "img": "midia/cases/20-salgueiro-5.webp",
+          "x": 0.0,
+          "y": 84.44,
+          "w": 49.45,
+          "h": 15.56,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/20-salgueiro-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 11.98,
+          "link": ""
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "About Carnaval",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/21-about-carnaval-logo1.webp"
+      ],
+      "descricao": "Cobertura do Carnaval de Rua em parceria orgânica com o @aboutcarnaval. Produção de conteúdo com criação de personagens, humor em casal, entrevistas e trends.",
+      "notas": [
+        "Parceria com: @thaismartinsm",
+        "Participação: @rangelvitor"
+      ],
+      "periodo": "Pré-Carnaval/26",
+      "visualizacoes": "+2M",
+      "interacoes": "+125k",
+      "mosaico": [
+        {
+          "img": "midia/cases/21-about-carnaval-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/reels/DTIUFfQjnil/"
+        },
+        {
+          "img": "midia/cases/21-about-carnaval-2.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/reels/DUTM078jeO-/"
+        },
+        {
+          "img": "midia/cases/21-about-carnaval-3.webp",
+          "x": 50.55,
+          "y": 28.89,
+          "w": 49.45,
+          "h": 36.91,
+          "link": "https://www.instagram.com/reels/DTGulxAD0dG/"
+        },
+        {
+          "img": "midia/cases/21-about-carnaval-4.webp",
+          "x": 50.55,
+          "y": 66.3,
+          "w": 49.45,
+          "h": 33.7,
+          "link": "https://www.instagram.com/reels/DUNutCSDvN9/"
+        },
+        {
+          "img": "midia/cases/21-about-carnaval-5.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DTOWZLNj0ns/"
+        },
+        {
+          "img": "midia/cases/21-about-carnaval-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 28.27,
+          "link": "https://www.instagram.com/reels/DUT2JyjDwzC/"
+        }
+      ]
+    },
+    {
+      "marca": "Fornês Pizzaria",
+      "categoria": "Carnaval",
+      "logos": [
+        "midia/cases/22-fornes-pizzaria-logo1.webp"
+      ],
+      "descricao": "Produção de conteúdo em casal com objetivo de reforço da marca no período do Carnaval.",
+      "notas": [
+        "Parceria com: @thaismartinsm"
+      ],
+      "periodo": "Fevereiro/26",
+      "visualizacoes": "+40k",
+      "interacoes": "+1k",
+      "mosaico": [
+        {
+          "img": "midia/cases/22-fornes-pizzaria-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 29.38,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/22-fornes-pizzaria-2.webp",
+          "x": 0.0,
+          "y": 29.88,
+          "w": 49.45,
+          "h": 45.8,
+          "link": "https://www.instagram.com/reels/DU1UYgbD8u0/"
+        },
+        {
+          "img": "midia/cases/22-fornes-pizzaria-3.webp",
+          "x": 50.55,
+          "y": 68.52,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/22-fornes-pizzaria-4.webp",
+          "x": 0.0,
+          "y": 76.17,
+          "w": 49.45,
+          "h": 23.7,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/22-fornes-pizzaria-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/22-fornes-pizzaria-6.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 51.36,
+          "link": "https://www.instagram.com/reels/DUZFqC3DzS4/"
+        }
+      ]
+    },
+    {
+      "marca": "Restaurante Fantástico",
+      "categoria": "Geral",
+      "logos": [
+        "midia/cases/23-restaurante-fantastico-logo1.webp"
+      ],
+      "descricao": "Produção de conteúdo com objetivo de comunicação da Arena Fantástica, a opção temática para assistir os jogos da Copa no Restaurante Fantástico. Desenvolvimento de conteúdo de interação com o público e um no estilo sarcástico/meme.",
+      "notas": [],
+      "periodo": "Junho/26",
+      "visualizacoes": "+170k",
+      "interacoes": "+3k",
+      "mosaico": [
+        {
+          "img": "midia/cases/23-restaurante-fantastico-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 29.38,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/23-restaurante-fantastico-2.webp",
+          "x": 0.0,
+          "y": 29.88,
+          "w": 49.45,
+          "h": 45.8,
+          "link": "https://www.instagram.com/reel/DZVEP9bBKzs/"
+        },
+        {
+          "img": "midia/cases/23-restaurante-fantastico-3.webp",
+          "x": 50.55,
+          "y": 68.52,
+          "w": 49.45,
+          "h": 31.48,
+          "link": "https://www.instagram.com/p/DCrfOM5JOe-/"
+        },
+        {
+          "img": "midia/cases/23-restaurante-fantastico-4.webp",
+          "x": 0.0,
+          "y": 76.17,
+          "w": 49.45,
+          "h": 23.7,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/23-restaurante-fantastico-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 15.8,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/23-restaurante-fantastico-6.webp",
+          "x": 50.55,
+          "y": 16.42,
+          "w": 49.45,
+          "h": 51.36,
+          "link": "https://www.instagram.com/reel/DZKxkooB9oL/"
+        }
+      ]
+    },
+    {
+      "marca": "Farmasi Arena",
+      "categoria": "Geral",
+      "logos": [
+        "midia/cases/24-farmasi-arena-logo1.webp"
+      ],
+      "descricao": "Produção de conteúdos para comunicação de shows, parcerias e facilidades da Farmasi Arena.",
+      "notas": [
+        "Parceria com: @thaismartinsm"
+      ],
+      "periodo": "Fevereiro/26 - Março/26",
+      "visualizacoes": "+143k",
+      "interacoes": "+2.8k",
+      "mosaico": [
+        {
+          "img": "midia/cases/24-farmasi-arena-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 29.38,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/24-farmasi-arena-2.webp",
+          "x": 0.0,
+          "y": 29.88,
+          "w": 49.45,
+          "h": 45.8,
+          "link": "https://www.instagram.com/reel/DWB6RkujZhX/"
+        },
+        {
+          "img": "midia/cases/24-farmasi-arena-3.webp",
+          "x": 50.55,
+          "y": 62.47,
+          "w": 49.45,
+          "h": 37.53,
+          "link": "https://www.instagram.com/reel/DWjeWNHDREC/"
+        },
+        {
+          "img": "midia/cases/24-farmasi-arena-4.webp",
+          "x": 0.0,
+          "y": 76.17,
+          "w": 49.45,
+          "h": 23.7,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/24-farmasi-arena-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 18.4,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/24-farmasi-arena-6.webp",
+          "x": 50.55,
+          "y": 19.01,
+          "w": 49.45,
+          "h": 42.84,
+          "link": "https://www.instagram.com/reel/DVOe8o0DVZC/"
+        }
+      ],
+      "logo_grande": true
+    },
+    {
+      "marca": "Espetto Carioca · Sirène",
+      "categoria": "Geral",
+      "logos": [
+        "midia/cases/25-espetto-carioca-sir-ne-logo1.webp",
+        "midia/cases/25-espetto-carioca-sir-ne-logo2.webp"
+      ],
+      "descricao": "Produção de conteúdo no **Rock in Rio** para o Grupo Impettus, rede proprietária do Espetto Carioca e Sirène.",
+      "notas": [
+        "Parceria com: @thaismartinsm"
+      ],
+      "periodo": "Setembro/26",
+      "visualizacoes": "+40k",
+      "interacoes": "+800",
+      "mosaico": [
+        {
+          "img": "midia/cases/25-espetto-carioca-sir-ne-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 29.38,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/25-espetto-carioca-sir-ne-2.webp",
+          "x": 0.0,
+          "y": 29.75,
+          "w": 49.45,
+          "h": 41.85,
+          "link": "https://www.instagram.com/p/Dc9WJsUFHDC/"
+        },
+        {
+          "img": "midia/cases/25-espetto-carioca-sir-ne-3.webp",
+          "x": 50.55,
+          "y": 60.49,
+          "w": 49.45,
+          "h": 39.51,
+          "link": "https://www.instagram.com/reel/Dc46vIaAlMR/"
+        },
+        {
+          "img": "midia/cases/25-espetto-carioca-sir-ne-4.webp",
+          "x": 0.0,
+          "y": 72.72,
+          "w": 49.45,
+          "h": 27.28,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/25-espetto-carioca-sir-ne-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 12.47,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/25-espetto-carioca-sir-ne-6.webp",
+          "x": 50.55,
+          "y": 13.21,
+          "w": 49.45,
+          "h": 46.67,
+          "link": "https://www.instagram.com/p/Dc67HZKJHP-/"
+        }
+      ]
+    },
+    {
+      "marca": "Partiu Pra Boa · 90’s Festival",
+      "categoria": "Geral",
+      "logos": [
+        "midia/cases/26-partiu-pra-boa-90-s-festival-logo1.webp",
+        "midia/cases/26-partiu-pra-boa-90-s-festival-logo2.webp"
+      ],
+      "descricao": "Cobertura do 90’s Festival em collab com o Partiu Pra Boa, plataforma de divulgação e venda de ingressos para eventos.",
+      "notas": [],
+      "periodo": "Julho/24",
+      "visualizacoes": "+41k",
+      "interacoes": "+1k",
+      "mosaico": [
+        {
+          "img": "midia/cases/26-partiu-pra-boa-90-s-festival-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 29.38,
+          "link": "https://www.instagram.com/reel/DH8v2RPJOvV/"
+        },
+        {
+          "img": "midia/cases/26-partiu-pra-boa-90-s-festival-2.webp",
+          "x": 0.0,
+          "y": 29.75,
+          "w": 49.45,
+          "h": 41.85,
+          "link": "https://www.instagram.com/reel/C9u0AsjpUTA/"
+        },
+        {
+          "img": "midia/cases/26-partiu-pra-boa-90-s-festival-3.webp",
+          "x": 50.55,
+          "y": 60.49,
+          "w": 49.45,
+          "h": 39.51,
+          "link": "https://www.instagram.com/reel/C9vUqRFJ9kX/"
+        },
+        {
+          "img": "midia/cases/26-partiu-pra-boa-90-s-festival-4.webp",
+          "x": 0.0,
+          "y": 72.72,
+          "w": 49.45,
+          "h": 27.28,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/26-partiu-pra-boa-90-s-festival-5.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 12.47,
+          "link": ""
+        },
+        {
+          "img": "midia/cases/26-partiu-pra-boa-90-s-festival-6.webp",
+          "x": 50.55,
+          "y": 13.21,
+          "w": 49.45,
+          "h": 46.67,
+          "link": "https://www.instagram.com/p/Dc67HZKJHP-/"
+        }
+      ],
+      "logo_grande": [
+        0
+      ]
+    },
+    {
+      "marca": "Super Bom",
+      "categoria": "Geral",
+      "logos": [
+        "midia/cases/27-super-bom-logo1.webp"
+      ],
+      "descricao": "Projeto para fortalecimento da imagem do supermercado Super Bom na cidade do Rio de Janeiro com ações para marcas parceiras dentro das unidades.",
+      "notas": [
+        "Participação: @thaismartinsm e @rangelvitor"
+      ],
+      "periodo": "Fevereiro/26 - Junho/26",
+      "visualizacoes": "+305k",
+      "interacoes": "+4.3k",
+      "mosaico": [
+        {
+          "img": "midia/cases/27-super-bom-1.webp",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 31.85,
+          "link": "https://www.instagram.com/reels/DZaVI8Oq5v_/"
+        },
+        {
+          "img": "midia/cases/27-super-bom-2.webp",
+          "x": 0.0,
+          "y": 32.35,
+          "w": 49.45,
+          "h": 37.65,
+          "link": "https://www.instagram.com/reels/DUyGY2JDjQJ/"
+        },
+        {
+          "img": "midia/cases/27-super-bom-3.webp",
+          "x": 50.55,
+          "y": 28.89,
+          "w": 49.45,
+          "h": 36.91,
+          "link": "https://www.instagram.com/reel/DUvawnEjVY5/"
+        },
+        {
+          "img": "midia/cases/27-super-bom-4.webp",
+          "x": 50.55,
+          "y": 66.3,
+          "w": 49.45,
+          "h": 33.7,
+          "link": "https://www.instagram.com/reel/DY4waB8u33G/"
+        },
+        {
+          "img": "midia/cases/27-super-bom-5.webp",
+          "x": 0.0,
+          "y": 70.49,
+          "w": 49.45,
+          "h": 29.51,
+          "link": "https://www.instagram.com/reels/DXensbhB930/"
+        },
+        {
+          "img": "midia/cases/27-super-bom-6.webp",
+          "x": 50.55,
+          "y": 0.0,
+          "w": 49.45,
+          "h": 28.27,
+          "link": "https://www.instagram.com/reels/DW7NsxXhEev/"
+        }
+      ]
+    }
+  ]
+}
