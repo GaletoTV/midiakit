@@ -1020,3 +1020,17 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
   .previa-capa .previa-kpi small { font-size: max(.62cqw, 5px); margin-top: .45cqw; }
   .previa-capa .previa-botao { margin-top: 1.3cqw; font-size: max(.85cqw, 7px); padding: max(1cqw, 6px) max(1.6cqw, 10px); min-height: 0; }
 }
+
+/* prévia da capa em estilo vidro (teste 25/11/2026) */
+.previa-kpi {
+  background: linear-gradient(135deg, rgba(255,255,255,.18), rgba(255,255,255,.06));
+  -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(255,255,255,.28); border-top: 1px solid rgba(255,255,255,.45);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 10px 30px rgba(0,0,0,.35);
+  color: #fff;
+}
+.previa-kpi b { color: var(--lima); }
+.previa-kpi small { color: rgba(255,255,255,.85); }
+@media (min-width: 700px) {
+  .previa-capa .previa-kpi { border-top-width: 1px; box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1cqw 2.5cqw rgba(0,0,0,.35); }
+}
