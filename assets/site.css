@@ -1095,7 +1095,7 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
 @media (min-width: 900px) { .marca-frase { font-size: 9px; letter-spacing: .1em; } }
 @media (min-width: 900px) and (max-width: 1279px) { .marca-frase { display: none; } }
 
-/* capa um pouco mais baixa (2:1 em vez de 16:9, pedido de 25/11/2026);
-   a foto diminui na mesma proporção para continuar inteira, encostada à direita e saindo pela base */
-.capitulo--abertura .palco { aspect-ratio: 2 / 1; }
-.capitulo--abertura .foto { width: 52.6%; left: 49.3%; bottom: -3.4%; }
+/* capa mais baixa (2,3:1 em vez de 16:9, pedido de 25/11/2026); a foto vem mais para o centro
+   e o cliente aceitou cortar um pouco a parte de baixo dela (sai pela base, sem recorte visível) */
+.capitulo--abertura .palco { aspect-ratio: 2.3 / 1; }
+.capitulo--abertura .foto { width: 50%; left: 44%; bottom: -14%; }
