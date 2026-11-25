@@ -1034,3 +1034,24 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
 @media (min-width: 700px) {
   .previa-capa .previa-kpi { border-top-width: 1px; box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1cqw 2.5cqw rgba(0,0,0,.35); }
 }
+
+/* prévia em um quadro só de vidro (cabeçalho, 3 números e botão juntos) */
+.previa-ig {
+  background: linear-gradient(135deg, rgba(255,255,255,.16), rgba(255,255,255,.05));
+  -webkit-backdrop-filter: blur(16px) saturate(140%); backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid rgba(255,255,255,.28); border-radius: 16px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 12px 34px rgba(0,0,0,.4);
+  padding: 14px 14px 16px;
+}
+.previa-nums { gap: 0; }
+.previa-kpi, .previa-capa .previa-kpi {
+  background: none; -webkit-backdrop-filter: none; backdrop-filter: none; border: 0; box-shadow: none; border-radius: 0;
+  border-left: 1px solid rgba(255,255,255,.22); padding: 2px 12px;
+}
+.previa-kpi:first-child { border-left: 0; padding-left: 0; }
+@media (min-width: 700px) {
+  .previa-capa .previa-ig { border-radius: 1.2cqw; padding: 1.2cqw 1.4cqw 1.4cqw; box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1.2cqw 3cqw rgba(0,0,0,.4); }
+  .previa-capa .previa-nums { gap: 0; margin-top: 1cqw; }
+  .previa-capa .previa-kpi { padding: .2cqw 1.1cqw; border-left-width: 1px; }
+  .previa-capa .previa-kpi:first-child { padding-left: 0; }
+}
