@@ -107,9 +107,11 @@ function renderPerfil(p) {
   if (p.titulo_linha1) $("#titulo-l1").textContent = p.titulo_linha1;
   if (p.titulo_linha2) $("#titulo-l2").textContent = p.titulo_linha2;
   // abertura: ícones das redes em verde-limão dentro de círculos, cada um com link
-  $("#arrobas").append(...(p.arrobas || []).filter((a) => a.link).map((a) => h("li", {},
+  const iconesRedes = () => (p.arrobas || []).filter((a) => a.link).map((a) => h("li", {},
     h("a", { href: a.link, target: "_blank", rel: "noopener", "aria-label": `${a.rede || "Rede"} ${a.texto || ""}`.trim(), title: `${a.rede || ""} ${a.texto || ""}`.trim() },
-      iconeLinha(a.rede)))));
+      iconeLinha(a.rede))));
+  $("#arrobas").append(...iconesRedes());
+  document.querySelectorAll(".redes-capa").forEach((ul) => ul.append(...iconesRedes()));
   // parágrafos da bio separados por linha em branco no JSON
   const partesBio = String(p.bio || "").split(/\n\s*\n/);
   $("#bio").append(rico(partesBio[0]));

@@ -1071,3 +1071,26 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
   .capitulo--abertura .assinatura { top: 36.8%; right: 41.6%; font-size: max(.9cqw, 5px); }
   .previa-capa { top: 45%; width: 40%; }
 }
+
+/* teste: capa só com o quadro + ícones embaixo; frase na barra superior ao lado do logo */
+.marca { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.marca-frase { font: 700 8px/1 var(--titulo); text-transform: uppercase; letter-spacing: .16em; color: #fff; white-space: nowrap; padding-left: 10px; border-left: 1px solid rgba(255,255,255,.35); line-height: 1.6; }
+.marca-frase i { font-style: normal; color: var(--rosa); }
+@media (max-width: 419px) { .marca-frase { display: none; } }
+@media (min-width: 900px) { .marca { gap: 14px; } .marca-frase { font-size: 10px; padding-left: 14px; } }
+.capitulo--abertura .logo-capa, .capitulo--abertura .assinatura, .capitulo--abertura .arrobas { display: none; }
+.redes-capa { list-style: none; padding: 0; margin: 14px 0 0; display: flex; justify-content: center; gap: 10px; }
+.redes-capa a {
+  display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; width: 40px; height: 40px;
+  border: 1.5px solid var(--lima); background: rgba(0,0,0,.55); color: var(--lima); transition: background .2s, color .2s, transform .2s;
+}
+.redes-capa a:hover, .redes-capa a:focus-visible { background: var(--lima); color: var(--preto); transform: translateY(-2px); }
+.redes-capa .icone-linha { width: 56%; height: 56%; }
+@media (min-width: 700px) {
+  .previa-capa { top: 50%; left: 4.9%; width: 40%; transform: translateY(-50%); }
+  .redes-capa { margin-top: 1.6cqw; gap: .9cqw; }
+  .redes-capa a { width: max(3.1cqw, 26px); height: max(3.1cqw, 26px); border-width: max(1.5px, .14cqw); }
+}
+.menu a { white-space: nowrap; }
+@media (min-width: 900px) { .marca-frase { font-size: 9px; letter-spacing: .1em; } }
+@media (min-width: 900px) and (max-width: 1279px) { .marca-frase { display: none; } }
