@@ -135,11 +135,11 @@ function barra(rotulo, pct, max = 100) {
     h("div", { class: "t" }, h("i", { style: `width:${Math.max(2, (pct / max) * 100)}%` })));
 }
 
-/* número "do Instagram": 155400 -> "155k", 21000000 -> "21M" */
+/* número "do Instagram" (trunca, como o app): 157822 -> "157k", 13797341 -> "13.7M" */
 function curto(n) {
   if (n == null) return "";
-  if (n >= 1e6) return nf1.format(n / 1e6).replace(/,0$/, "").replace(",", ".") + "M";
-  if (n >= 1e3) return Math.round(n / 1e3) + "k";
+  if (n >= 1e6) return nf1.format(Math.floor(n / 1e5) / 10).replace(/,0$/, "").replace(",", ".") + "M";
+  if (n >= 1e3) return Math.floor(n / 1e3) + "k";
   return String(n);
 }
 const milhar = new Intl.NumberFormat("pt-BR");
