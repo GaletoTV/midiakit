@@ -357,7 +357,7 @@ function renderRedes(r, dash) {
   $("#faixa-numeros").append(
     h("div", { class: "item" }, h("div", { class: "v", text: r.total_seguidores }), h("div", { class: "r", text: "seguidores em todas as redes" })),
     h("div", { class: "item", id: "faixa-ig" }, h("div", { class: "v", text: nums[0].valor }), h("div", { class: "r", text: "seguidores no Instagram" })),
-    h("div", { class: "item" }, h("div", { class: "v", text: "+" + curtoCima(viewsTotal) }), h("div", { class: "r", text: "de visualizações nas redes em 3 meses" })),
+    h("div", { class: "item" }, h("div", { class: "v", text: "+" + curtoCima(viewsTotal) }), h("div", { class: "r", text: "visualizações nas redes nos últimos 90 dias" })),
   );
 }
 
