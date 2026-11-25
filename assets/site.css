@@ -1064,3 +1064,10 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
 @media (min-width: 700px) {
   .previa-capa .previa-kpi, .previa-capa .previa-kpi:first-child { padding-left: .6cqw; padding-right: .6cqw; }
 }
+
+/* teste: logo e frase no tamanho original, só mais acima; quadro de vidro embaixo */
+@media (min-width: 700px) {
+  .capitulo--abertura .logo-capa { width: 51.72%; top: 17%; }
+  .capitulo--abertura .assinatura { top: 36.8%; right: 41.6%; font-size: max(.9cqw, 5px); }
+  .previa-capa { top: 45%; width: 40%; }
+}
