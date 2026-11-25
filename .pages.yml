@@ -328,15 +328,15 @@ content:
         label: Linha de territórios
         type: string
       - name: arrobas
-        label: Arrobas da abertura
+        label: Ícones das redes na abertura
         type: object
         list: true
         fields:
-          - name: texto
-            label: Arroba (ex. @galeto.tv)
+          - name: rede
+            label: Rede (Instagram, TikTok, Facebook, Kwai ou YouTube)
             type: string
-          - name: redes
-            label: Redes (ex. Instagram · TikTok)
+          - name: texto
+            label: Arroba (só para leitores de tela)
             type: string
           - name: link
             type: string

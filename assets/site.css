@@ -970,3 +970,14 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
 /* rótulos das interações menores, sem encostar um no outro (COMPARTILHAMENTOS) */
 .kpis-ig .k-int-det span { font-size: 7.5px; letter-spacing: 0; overflow-wrap: anywhere; }
 @media (min-width: 900px) { .kpis-ig .k-int-det span { font-size: 8px; } }
+
+/* abertura: ícones das redes em círculos com contorno verde-limão (pedido do cliente, 25/11/2026) */
+.capitulo--abertura .arrobas { gap: max(.75cqw, 5px); }
+.arrobas a {
+  justify-content: center; padding: 0; gap: 0; border-radius: 50%;
+  width: max(3.1cqw, 26px); height: max(3.1cqw, 26px);
+  border: max(1.5px, .14cqw) solid var(--lima); background: rgba(0,0,0,.55); color: var(--lima);
+  transition: background .2s, color .2s, transform .2s;
+}
+.arrobas a:hover, .arrobas a:focus-visible { background: var(--lima); color: var(--preto); transform: translateY(-2px); }
+.arrobas .icone-linha { width: 56%; height: 56%; display: block; }

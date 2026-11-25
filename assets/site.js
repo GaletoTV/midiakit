@@ -9,6 +9,21 @@ const nf1 = new Intl.NumberFormat("pt-BR", { minimumFractionDigits: 1, maximumFr
 const compacto = new Intl.NumberFormat("pt-BR", { notation: "compact", maximumFractionDigits: 1 });
 
 // ícones das redes (selo colorido + símbolo branco)
+/* ícones de uma cor só (currentColor) para a abertura */
+const ICONES_LINHA = {
+  Instagram: [["rect", { x: 4, y: 4, width: 16, height: 16, rx: 4.8, fill: "none", stroke: "currentColor", "stroke-width": 2 }], ["circle", { cx: 12, cy: 12, r: 3.8, fill: "none", stroke: "currentColor", "stroke-width": 2 }], ["circle", { cx: 16.9, cy: 7.1, r: 1.2, fill: "currentColor" }]],
+  TikTok: [["path", { d: "M16.6 3h-3.1v11.6a2.6 2.6 0 1 1-2.6-2.6c.27 0 .53.04.78.12V8.9a5.7 5.7 0 1 0 4.92 5.65V9.1a7 7 0 0 0 3.9 1.18V7.2a3.9 3.9 0 0 1-3.9-4.2z", fill: "currentColor" }]],
+  Facebook: [["path", { d: "M13.6 21v-7.8h2.6l.4-3.1h-3v-2c0-.9.25-1.5 1.55-1.5h1.6V3.85c-.28-.04-1.24-.12-2.36-.12-2.33 0-3.93 1.42-3.93 4.04v2.3H7.85v3.1h2.6V21z", fill: "currentColor" }]],
+  Kwai: [["circle", { cx: 7.2, cy: 6.6, r: 2.6, fill: "none", stroke: "currentColor", "stroke-width": 1.9 }], ["circle", { cx: 13.2, cy: 6.6, r: 2.6, fill: "none", stroke: "currentColor", "stroke-width": 1.9 }], ["rect", { x: 3.5, y: 10.4, width: 12.5, height: 9.6, rx: 2.4, fill: "none", stroke: "currentColor", "stroke-width": 1.9 }], ["path", { d: "M16 14.2l4.6-2.7v7.4L16 16.2z", fill: "none", stroke: "currentColor", "stroke-width": 1.9, "stroke-linejoin": "round" }]],
+  YouTube: [["rect", { x: 2.6, y: 5.6, width: 18.8, height: 12.8, rx: 3.8, fill: "none", stroke: "currentColor", "stroke-width": 2 }], ["path", { d: "M10.2 9.3v5.4l4.7-2.7z", fill: "currentColor" }]],
+};
+function iconeLinha(nome) {
+  const NS = "http://www.w3.org/2000/svg", mk = (t, a) => { const e = document.createElementNS(NS, t); for (const [k, v] of Object.entries(a)) e.setAttribute(k, v); return e; };
+  const s = mk("svg", { viewBox: "0 0 24 24", class: "icone-linha", "aria-hidden": "true" });
+  for (const [t, a] of (ICONES_LINHA[nome] || [])) s.append(mk(t, a));
+  return s;
+}
+
 const ICONES_REDES = {
   Instagram: { fundo: "url(#ig-grad)", el: [["rect", { x: 6, y: 6, width: 12, height: 12, rx: 3.6, fill: "none", stroke: "#fff", "stroke-width": 1.8 }], ["circle", { cx: 12, cy: 12, r: 2.9, fill: "none", stroke: "#fff", "stroke-width": 1.8 }], ["circle", { cx: 15.5, cy: 8.5, r: 0.95, fill: "#fff" }]] },
   TikTok: { fundo: "#000", el: [["path", { d: "M15.6 5h-2.5v9.4a2.1 2.1 0 1 1-2.1-2.1l.6.1V9.8a4.6 4.6 0 1 0 4 4.5V9.7a5.6 5.6 0 0 0 3 .9V8.2a3.1 3.1 0 0 1-3-3.2z", fill: "#25F4EE", transform: "translate(-.6 -.4)" }], ["path", { d: "M15.6 5h-2.5v9.4a2.1 2.1 0 1 1-2.1-2.1l.6.1V9.8a4.6 4.6 0 1 0 4 4.5V9.7a5.6 5.6 0 0 0 3 .9V8.2a3.1 3.1 0 0 1-3-3.2z", fill: "#FE2C55", transform: "translate(.6 .4)" }], ["path", { d: "M15.6 5h-2.5v9.4a2.1 2.1 0 1 1-2.1-2.1l.6.1V9.8a4.6 4.6 0 1 0 4 4.5V9.7a5.6 5.6 0 0 0 3 .9V8.2a3.1 3.1 0 0 1-3-3.2z", fill: "#fff" }]] },
@@ -91,7 +106,10 @@ function renderPerfil(p) {
   $("#usuario-topo").textContent = "@" + p.usuario_instagram;
   if (p.titulo_linha1) $("#titulo-l1").textContent = p.titulo_linha1;
   if (p.titulo_linha2) $("#titulo-l2").textContent = p.titulo_linha2;
-  $("#arrobas").append(...(p.arrobas || []).map((a) => h("li", {}, h("a", { href: a.link || "#", target: "_blank", rel: "noopener" }, a.redes ? h("small", { text: a.redes }) : null, a.texto))));
+  // abertura: ícones das redes em verde-limão dentro de círculos, cada um com link
+  $("#arrobas").append(...(p.arrobas || []).filter((a) => a.link).map((a) => h("li", {},
+    h("a", { href: a.link, target: "_blank", rel: "noopener", "aria-label": `${a.rede || "Rede"} ${a.texto || ""}`.trim(), title: `${a.rede || ""} ${a.texto || ""}`.trim() },
+      iconeLinha(a.rede)))));
   // parágrafos da bio separados por linha em branco no JSON
   const partesBio = String(p.bio || "").split(/\n\s*\n/);
   $("#bio").append(rico(partesBio[0]));

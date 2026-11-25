@@ -59,16 +59,11 @@
     "youtube": "https://www.youtube.com/@canal.galetotv"
   },
   "arrobas": [
-    {
-      "texto": "@galeto.tv",
-      "redes": "Instagram · TikTok · Facebook · Kwai",
-      "link": "https://www.instagram.com/galeto.tv/"
-    },
-    {
-      "texto": "@canal.galetotv",
-      "redes": "YouTube",
-      "link": "https://www.youtube.com/@canal.galetotv"
-    }
+    { "rede": "Instagram", "texto": "@galeto.tv", "link": "https://www.instagram.com/galeto.tv/" },
+    { "rede": "TikTok", "texto": "@galeto.tv", "link": "https://www.tiktok.com/@galeto.tv" },
+    { "rede": "Facebook", "texto": "@galeto.tv", "link": "https://www.facebook.com/galeto.tv" },
+    { "rede": "Kwai", "texto": "@galeto.tv", "link": "https://www.kwai.com/@galeto.tv" },
+    { "rede": "YouTube", "texto": "@canal.galetotv", "link": "https://www.youtube.com/@canal.galetotv" }
   ],
   "titulo_linha1": "Entretenimento",
   "titulo_linha2": "que vira resenha",
