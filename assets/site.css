@@ -1133,3 +1133,25 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
   .previa-capa .previa-periodo { flex-basis: 100%; }
   .previa-capa .previa-periodo::before { content: none; }
 }
+/* celular, 2ª tentativa: capa mais baixa, foto na posição de antes e quadro menor ao lado */
+@media (max-width: 699px) {
+  .capitulo--abertura .palco { aspect-ratio: 3 / 2; }
+  .capitulo--abertura .foto { width: 63%; left: 43%; bottom: -4%; }
+  .previa-capa { left: 3%; width: 50%; }
+  .previa-capa .previa-ig { border-radius: 10px; padding: 7px 5px 8px; }
+  .previa-capa .previa-cab { font-size: 6px; }
+  .previa-capa .previa-cab .icone-linha { width: 8px; height: 8px; }
+  .previa-capa .previa-nums { margin-top: 5px; }
+  .previa-capa .previa-kpi, .previa-capa .previa-kpi:first-child { padding: 0 2px; }
+  .previa-capa .previa-kpi b { font-size: clamp(12px, 4.4cqw, 20px); }
+  .previa-capa .previa-kpi small { font-size: 5px; margin-top: 2px; }
+  .previa-capa .previa-botao { margin-top: 6px; font-size: 6px; padding: 6px 4px; }
+  .previa-capa .redes-capa { margin-top: 7px; gap: 5px; }
+  .previa-capa .redes-capa a { width: 22px; height: 22px; }
+}
+@media (max-width: 699px) {
+  .previa-capa .previa-cab { font-size: max(6px, 1.55cqw); }
+  .previa-capa .previa-kpi small { font-size: max(5px, 1.3cqw); }
+  .previa-capa .previa-botao { font-size: max(6px, 1.55cqw); }
+  .previa-capa .redes-capa a { width: max(22px, 5.6cqw); height: max(22px, 5.6cqw); }
+}
