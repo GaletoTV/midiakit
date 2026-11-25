@@ -142,6 +142,13 @@ function curto(n) {
   if (n >= 1e3) return Math.floor(n / 1e3) + "k";
   return String(n);
 }
+/* visualizações: sempre arredonda para cima, sem casa decimal: 13797341 -> "14M" */
+function curtoCima(n) {
+  if (n == null) return "";
+  if (n >= 1e6) return Math.ceil(n / 1e6) + "M";
+  if (n >= 1e3) return Math.ceil(n / 1e3) + "k";
+  return String(n);
+}
 const milhar = new Intl.NumberFormat("pt-BR");
 
 /* Mockup do perfil do Instagram (visão do público), montado em HTML.
@@ -289,7 +296,7 @@ function renderRedes(r, dash) {
   const nums = rede.numeros.map((n) => ({ ...n }));
   if (ao) {
     if (ao.perfil && ao.perfil.seguidores) nums[0].valor = curto(ao.perfil.seguidores);
-    if (ao.conta_90d && ao.conta_90d.views && nums[2]) nums[2].valor = "+" + curto(ao.conta_90d.views);
+    if (ao.conta_90d && ao.conta_90d.views && nums[2]) nums[2].valor = "+" + curtoCima(ao.conta_90d.views);
     if (ao.conta_90d && ao.conta_90d.alcance && nums[1]) nums[1].valor = "+" + curto(ao.conta_90d.alcance);
   }
   const pub = (ao && ao.publico) || rede;
