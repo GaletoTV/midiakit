@@ -399,6 +399,33 @@ def coletar_extras(perfil, posts, token, versao):
     except Exception as e:
         log(f"Aviso: interações da conta indisponíveis ({e})")
 
+    # últimos 30 dias (relatório; o site ainda não usa): visualizações, alcance, interações, novos seguidores
+    try:
+        ate = datetime.now(timezone.utc)
+        desde = ate - timedelta(days=30)
+        t = totais_da_conta(["views", "reach", "total_interactions", "likes", "comments", "shares", "saves"],
+                            desde, ate, token, versao)
+        c30 = {
+            "desde": desde.date().isoformat(), "ate": ate.date().isoformat(),
+            "views": t["views"], "alcance": t["reach"],
+            "interacoes": {
+                "total": t["total_interactions"] or (t["likes"] + t["comments"] + t["shares"] + t["saves"]),
+                "curtidas": t["likes"], "comentarios": t["comments"],
+                "compartilhamentos": t["shares"], "salvamentos": t["saves"],
+            },
+        }
+        try:
+            r = chamar_api("me/insights", {
+                "metric": "follower_count", "period": "day",
+                "since": int((ate - timedelta(days=29)).timestamp()), "until": int(ate.timestamp()),
+            }, token, versao)
+            c30["novos_seguidores"] = sum(v.get("value", 0) or 0 for i in r.get("data", []) for v in i.get("values", []))
+        except Exception as e:
+            log(f"Aviso: novos seguidores de 30 dias indisponíveis ({e})")
+        extras["conta_30d"] = c30
+    except Exception as e:
+        log(f"Aviso: métricas de 30 dias indisponíveis ({e})")
+
     # público: idade, gênero e cidades (em % dos seguidores)
     try:
         idade, genero, cidade = (demografia(q, token, versao) for q in ("age", "gender", "city"))
@@ -535,6 +562,7 @@ def salvar(cfg, perfil, posts, serie_seguidores, demo, extras=None):
         },
         "grade": (extras or {}).get("grade", []),
         "conta_90d": (extras or {}).get("conta_90d"),
+        "conta_30d": (extras or {}).get("conta_30d"),
         "publico": (extras or {}).get("publico"),
         "temas": list(cfg.get("categorias", {}).keys()) + [cfg.get("categoria_padrao", "Outros")],
         "seguidores_historico": serie_seguidores,
