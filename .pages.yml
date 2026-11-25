@@ -194,7 +194,7 @@ content:
             label: Período dos dados (ex. 02.06.26 – 30.08.26)
             type: string
           - name: numeros
-            label: Números principais (1º seguidores, 2º alcance 90 dias, 3º visualizações 90 dias)
+            label: Números principais (1º seguidores, 2º alcance 30 dias, 3º visualizações 30 dias — o Instagram conectado atualiza sozinho)
             type: object
             list: true
             fields:
@@ -205,10 +205,10 @@ content:
                 label: Rótulo (ex. seguidores)
                 type: string
           - name: alcance_numero
-            label: Alcance de 90 dias em número inteiro (usado na taxa de engajamento, ex. 10000000)
+            label: Alcance de 30 dias em número inteiro (só usado se o Instagram não estiver conectado)
             type: number
           - name: interacoes
-            label: Interações dos últimos 90 dias (só usadas enquanto o Instagram não estiver conectado)
+            label: Interações dos últimos 30 dias (só usadas enquanto o Instagram não estiver conectado)
             type: object
             fields:
               - { name: total, label: Total, type: string }

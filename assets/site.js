@@ -279,27 +279,27 @@ function cenaModerna(base, ao, nums) {
   return caixa;
 }
 
-// métricas do Instagram: seguidores, visualizações, alcance, interações e taxa de engajamento (90 dias)
+// métricas do Instagram: seguidores, visualizações, alcance, interações e taxa de engajamento (últimos 30 dias)
 function kpisInstagram(rede, ao, nums) {
   const man = rede.interacoes || {};
-  const vivo = ao && ao.conta_90d && ao.conta_90d.interacoes;
+  const vivo = ao && ao.conta_30d && ao.conta_30d.interacoes;
   const fmt = (n) => (typeof n === "number" ? curto(n) : n) || "—";
   const it = vivo ? {
     total: "+" + curto(vivo.total), curtidas: curto(vivo.curtidas), comentarios: curto(vivo.comentarios),
     compartilhamentos: curto(vivo.compartilhamentos), salvamentos: curto(vivo.salvamentos),
   } : { total: fmt(man.total), curtidas: fmt(man.curtidas), comentarios: fmt(man.comentarios), compartilhamentos: fmt(man.compartilhamentos), salvamentos: fmt(man.salvamentos) };
-  // taxa = interações ÷ alcance (90 dias); com dado manual, usa o valor digitado
+  // taxa = interações ÷ alcance (30 dias); com dado manual, usa o valor digitado
   let taxa = rede.taxa_engajamento || "—";
-  const alcance = (ao && ao.conta_90d && ao.conta_90d.alcance) || rede.alcance_numero;
+  const alcance = (ao && ao.conta_30d && ao.conta_30d.alcance) || rede.alcance_numero;
   if (vivo && vivo.total && alcance) taxa = (vivo.total / alcance * 100).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "%";
   const caixa = (cls, v, r) => h("div", { class: "kpi " + cls }, h("div", { class: "v", text: v }), h("div", { class: "r", text: r }));
   const mini = (v, r) => h("span", {}, h("b", { text: v }), r);
   return h("div", { class: "kpis kpis-ig" },
     caixa("k-seg", nums[0].valor, "seguidores"),
-    caixa("k-vis", nums[2] ? nums[2].valor : "—", "visualizações · 90 dias"),
-    caixa("k-alc", nums[1] ? nums[1].valor : "—", "alcance · 90 dias"),
+    caixa("k-vis", nums[2] ? nums[2].valor : "—", "visualizações · 30 dias"),
+    caixa("k-alc", nums[1] ? nums[1].valor : "—", "alcance · 30 dias"),
     h("div", { class: "kpi k-int" },
-      h("div", {}, h("div", { class: "v", text: it.total }), h("div", { class: "r", text: "interações · 90 dias" })),
+      h("div", {}, h("div", { class: "v", text: it.total }), h("div", { class: "r", text: "interações · 30 dias" })),
       h("div", { class: "k-int-det" }, mini(it.curtidas, "curtidas"), mini(it.comentarios, "comentários"), mini(it.compartilhamentos, "compartilhamentos"), mini(it.salvamentos, "salvamentos"))),
     caixa("k-taxa", taxa, "taxa de engajamento"));
 }
@@ -310,12 +310,12 @@ function renderRedes(r, dash) {
   $("#total-texto").textContent = `${r.total_texto}. ${r.rede_principal_texto}`;
   const rede = r.redes[0];
   const base = { ...(rede.perfil_mockup || {}), seguidores_txt: ((rede.numeros[0] || {}).valor || "").replace(/k$/, " mil") };
-  // números: seguidores e visualizações (90 dias) vêm da API quando houver; alcance fica o digitado
+  // números: seguidores, visualizações e alcance (30 dias) vêm da API quando houver
   const nums = rede.numeros.map((n) => ({ ...n }));
   if (ao) {
     if (ao.perfil && ao.perfil.seguidores) nums[0].valor = curto(ao.perfil.seguidores);
-    if (ao.conta_90d && ao.conta_90d.views && nums[2]) nums[2].valor = "+" + curtoCima(ao.conta_90d.views);
-    if (ao.conta_90d && ao.conta_90d.alcance && nums[1]) nums[1].valor = "+" + curto(ao.conta_90d.alcance);
+    if (ao.conta_30d && ao.conta_30d.views && nums[2]) nums[2].valor = "+" + curtoCima(ao.conta_30d.views);
+    if (ao.conta_30d && ao.conta_30d.alcance && nums[1]) nums[1].valor = "+" + curtoCima(ao.conta_30d.alcance);
   }
   const pub = (ao && ao.publico) || rede;
   const faixa = pub.faixa_etaria || [], cidades = pub.cidades || [], genero = pub.genero || { homens: 0, mulheres: 0 };
@@ -346,18 +346,22 @@ function renderRedes(r, dash) {
         h("div", {}, h("b", { class: o.seguidores ? "" : "vazio", text: o.seguidores || "—" }), h("small", { text: o.rotulo_seguidores || "seguidores" })),
         h("div", {}, h("b", { class: o.visualizacoes ? "" : "vazio", text: o.visualizacoes || "—" }), h("small", { text: "visualizações" }))),
       o.periodo ? h("small", { class: "rede-mini-per", text: o.periodo }) : null)));
-  // faixa da abertura: visualizações = Instagram + todas as outras redes (90 dias)
+  // faixa da abertura: visualizações = Instagram + todas as outras redes, no mesmo período.
+  // Usa 30 dias quando todas as outras redes estiverem em "últimos 30 dias"; senão, 90 dias.
   const numero = (t) => {
     const m = String(t || "").replace(",", ".").match(/([\d.]+)\s*([kKmM]?)/);
     if (!m) return 0;
     return parseFloat(m[1]) * ({ k: 1e3, m: 1e6 }[m[2].toLowerCase()] || 1);
   };
-  const viewsIg = (ao && ao.conta_90d && ao.conta_90d.views) || numero(nums[2].valor);
+  const outras = r.outras_redes || [];
+  const em30 = outras.every((o) => /30/.test(o.periodo || ""));
+  const contaIg = ao && (em30 ? ao.conta_30d : ao.conta_90d);
+  const viewsIg = (contaIg && contaIg.views) || numero(nums[2].valor);
   const viewsTotal = viewsIg + (r.outras_redes || []).reduce((s, o) => s + numero(o.visualizacoes), 0);
   $("#faixa-numeros").append(
     h("div", { class: "item" }, h("div", { class: "v", text: r.total_seguidores }), h("div", { class: "r", text: "seguidores em todas as redes" })),
     h("div", { class: "item", id: "faixa-ig" }, h("div", { class: "v", text: nums[0].valor }), h("div", { class: "r", text: "seguidores no Instagram" })),
-    h("div", { class: "item" }, h("div", { class: "v", text: "+" + curtoCima(viewsTotal) }), h("div", { class: "r", text: "visualizações · 90 dias" })),
+    h("div", { class: "item" }, h("div", { class: "v", text: "+" + curtoCima(viewsTotal) }), h("div", { class: "r", text: `visualizações · ${em30 ? 30 : 90} dias` })),
   );
 }
 
