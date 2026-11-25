@@ -10,7 +10,7 @@ Site estático (HTML/CSS/JS puro, sem build) do mídia kit do creator **Galeto.t
 python3 -m http.server 8000      # abra http://localhost:8000
 python3 scripts/fetch_instagram.py --demo   # gera dados fictícios em data/
 ```
-- O bloco "Instagram ao vivo" só aparece com dados reais. Com `data/dashboard.json` em modo demo, ele fica escondido, **a não ser** que o `<html>` tenha o atributo `data-previa` (usado só na prévia de aprovação).
+- Área do Instagram: cena moderna (celular com o perfil + 2 posts flutuantes + selos) e métricas de 90 dias (seguidores, visualizações, alcance, interações, taxa = interações ÷ alcance). Com dados reais em `data/dashboard.json`, tudo atualiza sozinho; com dados demo, usa os valores de `redes.json`.
 - A fonte Unbounded (títulos) e a Montserrat (textos) vêm do Google Fonts.
 
 ## Estrutura
@@ -60,7 +60,7 @@ Regra: a seção de parcerias segue **apenas** o Google Slides "MidiaKit_Galeto.
 ## Pendências
 - Prime Video e Midea não estão na apresentação, por isso saíram do site.
 - Conferir com o cliente: viral nº 7 tem "+148k" de alcance para 2,5M de views (talvez 1,48M); links de TikTok (`@galeto.tv`) e YouTube (`@canal.galetotv`) não foram verificados; capa "Se liga na proposta" ainda sem uso; usar ou não o escudo GA LE TO na barra verde.
-- **Publicação**: repositório GitHub público + GitHub Pages (Source: GitHub Actions) + segredos `IG_ACCESS_TOKEN` e opcional `GH_PAT` + Pages CMS + domínio próprio (registro.br, ~R$40/ano). Passo a passo no README.
+- **Publicação (feita em 24/11/2026)**: repositório público `GaletoTV/midiakit`, GitHub Pages (Source: GitHub Actions), domínio **galetotv.com.br** (registro.br, zona DNS em modo avançado: 4 A do GitHub, CNAME www → galetotv.github.io, MX/TXT do ImprovMX). E-mail contato@galetotv.com.br encaminha para o Gmail via ImprovMX. Falta: marcar Enforce HTTPS, segredo `IG_ACCESS_TOKEN` (e opcional `GH_PAT`) e Pages CMS.
 
 ## Prévia publicada
 Existe uma prévia de aprovação publicada como artifact no claude.ai ("Galeto.tv — Mídia Kit"). Ela é uma cópia deste projeto com `data-previa` no `<html>`.
