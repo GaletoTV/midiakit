@@ -360,9 +360,18 @@ function renderRedes(r, dash) {
   const viewsTotal = viewsIg + (r.outras_redes || []).reduce((s, o) => s + numero(o.visualizacoes), 0);
   $("#faixa-numeros").append(
     h("div", { class: "item" }, h("div", { class: "v", text: r.total_seguidores }), h("div", { class: "r", text: "seguidores em todas as redes" })),
-    h("div", { class: "item", id: "faixa-ig" }, h("div", { class: "v", text: nums[0].valor }), h("div", { class: "r", text: "seguidores no Instagram" })),
-    h("div", { class: "item" }, h("div", { class: "v", text: "+" + curtoCima(viewsTotal) }), h("div", { class: "r", text: `visualizações · ${em30 ? 30 : 90} dias` })),
+    h("div", { class: "item" }, h("div", { class: "v", text: "+" + curtoCima(viewsTotal) }), h("div", { class: "r", text: `visualizações em todas as redes · ${em30 ? 30 : 90} dias` })),
   );
+
+  // prévia do quadro do Instagram na capa (30 dias): seguidores, visualizações e alcance + botão
+  const previa = () => h("div", { class: "previa-ig" },
+    h("p", { class: "previa-cab" }, iconeLinha("Instagram"), h("span", { text: "Instagram · últimos 30 dias" })),
+    h("div", { class: "previa-nums" },
+      [[nums[0], "seguidores"], [nums[2], "visualizações"], [nums[1], "alcance"]].map(([n, rot]) =>
+        h("div", { class: "previa-kpi" }, h("b", { text: (n && n.valor) || "—" }), h("small", { text: rot })))),
+    h("a", { class: "botao previa-botao", href: "#numeros" }, "Acessar métricas completas"));
+  $("#previa-capa").append(previa());
+  $("#previa-capa-cel").append(previa());
 }
 
 function renderDestaques(d) {

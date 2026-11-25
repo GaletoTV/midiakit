@@ -990,3 +990,33 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
 @media (max-width: 699px) {
   .capitulo--abertura .arrobas { top: 83.5%; }
 }
+
+/* ---------- capa com prévia das métricas do Instagram (30 dias) — pedido de 25/11/2026 ----------
+   ≥ 700px: logo menor, frase menor e prévia + botão dentro do palco (medidas em cqw);
+   < 700px: o palco fica como antes e a prévia aparece logo abaixo dele. */
+.faixa .wrap { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.previa-ig { color: #fff; }
+.previa-cab { display: flex; align-items: center; gap: 6px; margin: 0; font: 700 10px/1 var(--titulo); text-transform: uppercase; letter-spacing: .12em; color: var(--lima); }
+.previa-cab .icone-linha { width: 14px; height: 14px; }
+.previa-nums { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+.previa-kpi { background: #fff; color: var(--preto); border-radius: 12px; border-top: 4px solid var(--lima); padding: 10px 10px 9px; min-width: 0; }
+.previa-kpi b { display: block; font: 800 22px/1 var(--titulo); color: var(--rosa); white-space: nowrap; }
+.previa-kpi small { display: block; margin-top: 5px; font: 700 8.5px/1.2 var(--titulo); text-transform: uppercase; letter-spacing: .04em; color: var(--preto); }
+.previa-botao { margin-top: 12px; }
+.previa-capa-cel { background: var(--preto); padding: 16px 16px 18px; }
+.previa-capa-cel .previa-botao { width: 100%; justify-content: center; }
+.previa-capa { display: none; }
+
+@media (min-width: 700px) {
+  .previa-capa-cel { display: none; }
+  .capitulo--abertura .logo-capa { width: 36%; top: 15.5%; }
+  .capitulo--abertura .assinatura { top: 31.2%; right: 61.4%; font-size: max(.68cqw, 5px); }
+  .previa-capa { display: block; top: 38.6%; left: 4.9%; width: 36%; z-index: 3; }
+  .previa-capa .previa-cab { font-size: max(.72cqw, 6px); gap: .5cqw; }
+  .previa-capa .previa-cab .icone-linha { width: max(1.05cqw, 9px); height: max(1.05cqw, 9px); }
+  .previa-capa .previa-nums { gap: .7cqw; margin-top: .9cqw; }
+  .previa-capa .previa-kpi { border-radius: .9cqw; border-top-width: max(2px, .3cqw); padding: 1cqw 1cqw .9cqw; box-shadow: 0 1cqw 2.5cqw rgba(0,0,0,.35); }
+  .previa-capa .previa-kpi b { font-size: max(2.35cqw, 13px); }
+  .previa-capa .previa-kpi small { font-size: max(.62cqw, 5px); margin-top: .45cqw; }
+  .previa-capa .previa-botao { margin-top: 1.3cqw; font-size: max(.85cqw, 7px); padding: max(1cqw, 6px) max(1.6cqw, 10px); min-height: 0; }
+}
