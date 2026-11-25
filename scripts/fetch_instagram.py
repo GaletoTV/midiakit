@@ -161,7 +161,7 @@ def buscar_insights_post(media_id, product_type, token, versao):
     return resultado
 
 
-def detectar_modo(token, versao):
+def detectar_modo(token, versao, ig_id_config=""):
     """Descobre qual API o token aceita e qual é a conta do Instagram."""
     global BASE, ALVO
     BASE, ALVO = BASE_IG, "me"
@@ -173,7 +173,7 @@ def detectar_modo(token, versao):
         erro_ig = e
 
     BASE = BASE_FB
-    ig_id = os.environ.get("IG_USER_ID", "").strip()
+    ig_id = os.environ.get("IG_USER_ID", "").strip() or str(ig_id_config or "").strip()
     if not ig_id:
         try:
             r = chamar_api("me/accounts", {"fields": "instagram_business_account{id,username}"}, token, versao)
@@ -210,7 +210,7 @@ def coletar_real(cfg, token):
     regras = compilar_categorias(cfg)
     padrao = cfg.get("categoria_padrao", "Outros")
 
-    detectar_modo(token, versao)
+    detectar_modo(token, versao, cfg.get("ig_user_id"))
 
     log("Lendo perfil…")
     campos_perfil = "username,name,biography,website,followers_count,follows_count,media_count,profile_picture_url"

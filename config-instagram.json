@@ -2,6 +2,7 @@
   "titulo": "Galeto.tv",
   "fuso_horario": "America/Sao_Paulo",
   "versao_api": "v24.0",
+  "ig_user_id": "17841426055948401",
   "max_posts": 150,
   "categorias": {
     "Esporte": ["#futebol", "#esporte", "#esportes", "futebol", "gol", "jogo", "campeonato", "brasileirão", "libertadores", "copa", "nba", "f1", "ufc", "vôlei", "seleção", "torcida", "time"],
