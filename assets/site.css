@@ -1099,3 +1099,37 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
    e o cliente aceitou cortar um pouco a parte de baixo dela (sai pela base, sem recorte visível) */
 .capitulo--abertura .palco { aspect-ratio: 2.3 / 1; }
 .capitulo--abertura .foto { width: 50%; left: 44%; bottom: -14%; }
+
+/* foto da capa um pouco mais alta (25/11/2026) */
+.capitulo--abertura .foto { bottom: -9%; }
+
+/* frase da barra superior: no desktop vira um "botão" em outline branco, sem o traço */
+@media (min-width: 900px) {
+  .marca-frase { border: 1px solid rgba(255,255,255,.85); border-radius: 999px; padding: 6px 14px; line-height: 1; }
+}
+
+/* celular em pé: o quadro fica dentro da capa, ao lado da foto (como no desktop), e a foto vai mais para a lateral */
+@media (max-width: 699px) {
+  .capitulo--abertura .palco { aspect-ratio: 4 / 3.3; }
+  .capitulo--abertura .foto { width: 74%; left: 46%; bottom: -7%; }
+  .previa-capa-cel { display: none; }
+  .previa-capa { display: block; top: 50%; left: 4%; width: 56%; transform: translateY(-50%); z-index: 3; }
+  .previa-capa .previa-ig { border-radius: 12px; padding: 9px 7px 10px; }
+  .previa-capa .previa-cab { flex-wrap: wrap; font-size: 7px; letter-spacing: .06em; gap: 3px 4px; line-height: 1.3; }
+  .previa-capa .previa-cab .icone-linha { width: 9px; height: 9px; }
+  .previa-capa .previa-nums { margin-top: 7px; }
+  .previa-capa .previa-kpi, .previa-capa .previa-kpi:first-child { padding: 0 3px; }
+  .previa-capa .previa-kpi b { font-size: clamp(14px, 5.2cqw, 24px); }
+  .previa-capa .previa-kpi small { font-size: 5.5px; letter-spacing: 0; margin-top: 3px; }
+  .previa-capa .previa-botao { margin-top: 8px; font-size: 7px; padding: 7px 6px; min-height: 0; letter-spacing: .02em; }
+  .previa-capa .redes-capa { margin-top: 9px; gap: 6px; }
+  .previa-capa .redes-capa a { width: 26px; height: 26px; border-width: 1.2px; }
+}
+.previa-periodo::before { content: "· "; }
+/* a sombra da foto termina na borda da imagem: some suavemente nas laterais para não aparecer um corte reto */
+.capitulo--abertura img.foto { -webkit-mask-image: linear-gradient(to right, transparent, #000 2.5%, #000 97.5%, transparent); mask-image: linear-gradient(to right, transparent, #000 2.5%, #000 97.5%, transparent); }
+@media (max-width: 699px) {
+  .previa-capa .previa-cab { row-gap: 2px; }
+  .previa-capa .previa-periodo { flex-basis: 100%; }
+  .previa-capa .previa-periodo::before { content: none; }
+}

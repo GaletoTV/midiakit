@@ -367,7 +367,7 @@ function renderRedes(r, dash) {
 
   // prévia do quadro do Instagram na capa (30 dias): seguidores, visualizações e alcance + botão
   const previa = () => h("div", { class: "previa-ig" },
-    h("p", { class: "previa-cab" }, iconeLinha("Instagram"), h("span", { text: "Instagram · @galeto.tv · últimos 30 dias" })),
+    h("p", { class: "previa-cab" }, iconeLinha("Instagram"), h("span", { text: "Instagram · @galeto.tv" }), h("span", { class: "previa-periodo", text: "últimos 30 dias" })),
     h("div", { class: "previa-nums" },
       [[nums[0], "seguidores"], [nums[2], "visualizações"], [nums[1], "alcance"]].map(([n, rot]) =>
         h("div", { class: "previa-kpi" }, h("b", { text: (n && n.valor) || "—" }), h("small", { text: rot })))),
