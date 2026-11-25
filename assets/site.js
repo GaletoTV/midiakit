@@ -328,11 +328,18 @@ function renderRedes(r, dash) {
         h("div", {}, h("b", { class: o.seguidores ? "" : "vazio", text: o.seguidores || "—" }), h("small", { text: o.rotulo_seguidores || "seguidores" })),
         h("div", {}, h("b", { class: o.visualizacoes ? "" : "vazio", text: o.visualizacoes || "—" }), h("small", { text: "visualizações" }))),
       o.periodo ? h("small", { class: "rede-mini-per", text: o.periodo }) : null)));
-  // faixa da abertura
+  // faixa da abertura: visualizações = Instagram + todas as outras redes (90 dias)
+  const numero = (t) => {
+    const m = String(t || "").replace(",", ".").match(/([\d.]+)\s*([kKmM]?)/);
+    if (!m) return 0;
+    return parseFloat(m[1]) * ({ k: 1e3, m: 1e6 }[m[2].toLowerCase()] || 1);
+  };
+  const viewsIg = (ao && ao.conta_90d && ao.conta_90d.views) || numero(nums[2].valor);
+  const viewsTotal = viewsIg + (r.outras_redes || []).reduce((s, o) => s + numero(o.visualizacoes), 0);
   $("#faixa-numeros").append(
     h("div", { class: "item" }, h("div", { class: "v", text: r.total_seguidores }), h("div", { class: "r", text: "seguidores em todas as redes" })),
     h("div", { class: "item", id: "faixa-ig" }, h("div", { class: "v", text: nums[0].valor }), h("div", { class: "r", text: "seguidores no Instagram" })),
-    h("div", { class: "item" }, h("div", { class: "v", text: nums[2].valor }), h("div", { class: "r", text: `${nums[2].rotulo} em 3 meses` })),
+    h("div", { class: "item" }, h("div", { class: "v", text: "+" + curtoCima(viewsTotal) }), h("div", { class: "r", text: "de visualizações nas redes em 3 meses" })),
   );
 }
 

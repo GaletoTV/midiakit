@@ -966,3 +966,7 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
 .kpis-ig .k-int-det span { text-align: left; }
 .kpis-ig .kpi .r { margin-top: 8px; }
 @media (min-width: 900px) { .kpis-ig .kpi { padding: 18px 16px; } }
+
+/* rótulos das interações menores, sem encostar um no outro (COMPARTILHAMENTOS) */
+.kpis-ig .k-int-det span { font-size: 7.5px; letter-spacing: 0; overflow-wrap: anywhere; }
+@media (min-width: 900px) { .kpis-ig .k-int-det span { font-size: 8px; } }
