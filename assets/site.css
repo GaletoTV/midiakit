@@ -1055,3 +1055,12 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
   .previa-capa .previa-kpi { padding: .2cqw 1.1cqw; border-left-width: 1px; }
   .previa-capa .previa-kpi:first-child { padding-left: 0; }
 }
+
+/* quadro da prévia: tudo centralizado */
+.previa-ig { text-align: center; }
+.previa-cab { justify-content: center; }
+.previa-kpi, .previa-capa .previa-kpi, .previa-kpi:first-child, .previa-capa .previa-kpi:first-child { padding-left: 8px; padding-right: 8px; text-align: center; }
+.previa-ig .previa-botao { display: flex; width: 100%; justify-content: center; }
+@media (min-width: 700px) {
+  .previa-capa .previa-kpi, .previa-capa .previa-kpi:first-child { padding-left: .6cqw; padding-right: .6cqw; }
+}
