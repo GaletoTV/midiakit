@@ -981,3 +981,12 @@ dialog.case::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px);
 }
 .arrobas a:hover, .arrobas a:focus-visible { background: var(--lima); color: var(--preto); transform: translateY(-2px); }
 .arrobas .icone-linha { width: 56%; height: 56%; display: block; }
+
+/* abertura no desktop: tagline mais afastada do logo e toda na parte escura (25/11/2026) */
+@media (min-width: 900px) {
+  .capitulo--abertura .assinatura { top: 61.2%; right: 41.6%; }
+}
+/* abertura no celular: ícones das redes um pouco mais acima, com respiro embaixo */
+@media (max-width: 699px) {
+  .capitulo--abertura .arrobas { top: 83.5%; }
+}
