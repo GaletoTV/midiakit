@@ -524,6 +524,8 @@ function ligarMenu() {
   m.addEventListener("click", (e) => { if (e.target.tagName === "A") { m.classList.remove("aberto"); b.setAttribute("aria-expanded", "false"); b.textContent = "Menu"; } });
   $("#fechar-case").addEventListener("click", () => $("#case").close());
   $("#case").addEventListener("click", (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
+  // botão de PDF escondido do público; aparece só com ?pdf no endereço
+  if (new URLSearchParams(location.search).has("pdf")) $("#linha-pdf").hidden = false;
   $("#salvar-pdf").addEventListener("click", () => { document.querySelectorAll(".revelar").forEach((e) => e.classList.add("visivel")); try { window.print(); } catch (_) {} });
 }
 
