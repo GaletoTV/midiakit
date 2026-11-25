@@ -28,7 +28,7 @@ jobs:
         run: python scripts/fetch_instagram.py --refresh-token
 
       - name: Gravar o novo token no segredo IG_ACCESS_TOKEN
-        if: env.IG_ACCESS_TOKEN != '' && env.GH_PAT != ''
+        if: env.IG_ACCESS_TOKEN != '' && env.GH_PAT != '' && hashFiles('.novo_token') != ''
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |

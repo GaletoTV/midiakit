@@ -31,7 +31,13 @@ SAIDA_PATH = RAIZ / "data" / "dashboard.json"
 HISTORICO_PATH = RAIZ / "data" / "historico_seguidores.json"
 NOVO_TOKEN_PATH = RAIZ / ".novo_token"
 
-BASE = "https://graph.instagram.com"
+BASE_IG = "https://graph.instagram.com"
+BASE_FB = "https://graph.facebook.com"
+# Definidos em detectar_modo(): token do "login do Instagram" (graph.instagram.com,
+# caminho "me") ou token do "login unificado"/usuário do sistema
+# (graph.facebook.com, caminho = ID da conta do Instagram).
+BASE = BASE_IG
+ALVO = "me"
 
 # Métricas pedidas para cada post. Nem todo formato aceita todas;
 # quando a API recusa, o script tenta uma a uma e ignora as que não existirem.
@@ -66,7 +72,10 @@ def chamar_api(caminho, params, token, versao, tentativas=3):
         if "access_token=" not in url:
             url += ("&" if "?" in url else "?") + urllib.parse.urlencode({"access_token": token})
     else:
-        url = f"{BASE}/{versao}/{caminho.lstrip('/')}?{urllib.parse.urlencode(params)}"
+        caminho = caminho.lstrip('/')
+        if caminho == "me" or caminho.startswith("me/"):
+            caminho = ALVO + caminho[2:]
+        url = f"{BASE}/{versao}/{caminho}?{urllib.parse.urlencode(params)}"
 
     for i in range(tentativas):
         try:
@@ -152,16 +161,63 @@ def buscar_insights_post(media_id, product_type, token, versao):
     return resultado
 
 
+def detectar_modo(token, versao):
+    """Descobre qual API o token aceita e qual é a conta do Instagram."""
+    global BASE, ALVO
+    BASE, ALVO = BASE_IG, "me"
+    try:
+        chamar_api("me", {"fields": "user_id,username"}, token, versao, tentativas=1)
+        log("Token do login do Instagram (graph.instagram.com).")
+        return
+    except ErroAPI as e:
+        erro_ig = e
+
+    BASE = BASE_FB
+    ig_id = os.environ.get("IG_USER_ID", "").strip()
+    if not ig_id:
+        try:
+            r = chamar_api("me/accounts", {"fields": "instagram_business_account{id,username}"}, token, versao)
+            for pag in r.get("data", []):
+                conta = pag.get("instagram_business_account")
+                if conta:
+                    ig_id = conta["id"]
+                    break
+        except ErroAPI:
+            pass
+    if not ig_id:
+        try:
+            r = chamar_api("me/businesses", {"fields": "owned_instagram_accounts{id,username},"
+                                                       "instagram_accounts{id,username}"}, token, versao)
+            for emp in r.get("data", []):
+                for campo in ("owned_instagram_accounts", "instagram_accounts"):
+                    contas = (emp.get(campo) or {}).get("data") or []
+                    if contas:
+                        ig_id = contas[0]["id"]
+                        break
+                if ig_id:
+                    break
+        except ErroAPI:
+            pass
+    if not ig_id:
+        raise erro_ig
+    ALVO = ig_id
+    log(f"Token do login unificado (graph.facebook.com), conta {ig_id}.")
+
+
 def coletar_real(cfg, token):
     versao = cfg.get("versao_api", "v24.0")
     max_posts = int(cfg.get("max_posts", 150))
     regras = compilar_categorias(cfg)
     padrao = cfg.get("categoria_padrao", "Outros")
 
+    detectar_modo(token, versao)
+
     log("Lendo perfil…")
-    perfil = chamar_api("me", {
-        "fields": "user_id,username,name,biography,website,followers_count,follows_count,media_count,profile_picture_url"
-    }, token, versao)
+    campos_perfil = "username,name,biography,website,followers_count,follows_count,media_count,profile_picture_url"
+    if BASE == BASE_IG:
+        campos_perfil = "user_id," + campos_perfil
+    perfil = chamar_api("me", {"fields": campos_perfil}, token, versao)
+    perfil.setdefault("user_id", perfil.get("id"))
 
     log("Listando posts…")
     campos = ("id,caption,media_type,media_product_type,timestamp,permalink,"
@@ -490,10 +546,16 @@ def salvar(cfg, perfil, posts, serie_seguidores, demo, extras=None):
 
 
 def renovar_token(token):
-    url = f"{BASE}/refresh_access_token?" + urllib.parse.urlencode(
+    url = f"{BASE_IG}/refresh_access_token?" + urllib.parse.urlencode(
         {"grant_type": "ig_refresh_token", "access_token": token})
-    with urllib.request.urlopen(url, timeout=30) as r:
-        resp = json.loads(r.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            resp = json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError:
+        # Tokens do login unificado (usuário do sistema) não expiram e não
+        # passam por esta renovação.
+        log("Este token não usa renovação (provavelmente não expira). Nada a fazer.")
+        return
     novo = resp["access_token"]
     NOVO_TOKEN_PATH.write_text(novo, encoding="utf-8")
     dias = int(resp.get("expires_in", 0)) // 86400
