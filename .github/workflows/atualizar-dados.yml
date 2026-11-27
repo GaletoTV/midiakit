@@ -2,8 +2,8 @@ name: Atualizar dados e publicar mídia kit
 
 on:
   schedule:
-    # 2x por dia: 06h17 e 18h17 (horário de Brasília). O horário do cron é em UTC.
-    - cron: "17 9,21 * * *"
+    # de 15 em 15 dias: dias 1 e 15 de cada mês às 06h17 (horário de Brasília). O horário do cron é em UTC.
+    - cron: "17 9 1,15 * *"
   workflow_dispatch: {}      # botão "Run workflow" para atualizar na hora
   push:
     branches: [main]         # republica quando você editar o site (inclusive pelo Pages CMS)

@@ -2,7 +2,7 @@
 
 Site do mídia kit com a identidade dos slides. Ele tem:
 
-- **números que se atualizam sozinhos**, puxados do Instagram duas vezes por dia;
+- **números que se atualizam sozinhos**, puxados do Instagram de 15 em 15 dias (dias 1 e 15 de cada mês, de manhã);
 - **painel de edição** (Pages CMS) para incluir parcerias, trocar fotos e atualizar números sem mexer em código;
 - **link personalizado por marca**: `seusite.com.br/?marca=Nike` abre com "Mídia kit preparado para Nike" no topo;
 - botão para **salvar em PDF**.

@@ -27,7 +27,7 @@ python3 scripts/fetch_instagram.py --demo   # gera dados fictícios em data/
 | `midia/` | logo (3 versões), fotos recortadas, títulos das capas, fundos, mockups, logos de parceiros |
 | `data/dashboard.json` | dados do Instagram (gerados automaticamente, não editar) |
 | `scripts/fetch_instagram.py` | coleta da API do Instagram (Instagram Login, graph.instagram.com) — só biblioteca padrão |
-| `.github/workflows/` | `atualizar-dados.yml` (2x/dia + deploy no GitHub Pages) e `renovar-token.yml` (token de 60 dias) |
+| `.github/workflows/` | `atualizar-dados.yml` (dias 1 e 15 de cada mês, 06h17 + deploy no GitHub Pages) e `renovar-token.yml` (token de 60 dias) |
 | `.pages.yml` | painel de edição Pages CMS (formulários para os JSON) |
 | `README.md` | guia para o dono do site publicar e editar |
 
